@@ -13,6 +13,9 @@ export default (() => {
             <a href="https://treycole.me/publications.html">Publications</a>
           </span>
           <span>
+            <a href="https://notes.treycole.me">Notes</a>
+          </span>
+          <span>
             <a href="https://treycole.me/cv.pdf">CV</a>
           </span>
         </div>
