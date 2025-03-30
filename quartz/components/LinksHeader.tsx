@@ -1,5 +1,5 @@
 import { QuartzComponentConstructor } from "./types"
-import style from "./styles/linksHeader.scss"
+import style from "./styles/linksheader.scss"
 
 interface Options {
   links: Record<string, string>
