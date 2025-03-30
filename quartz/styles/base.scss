@@ -11,41 +11,6 @@ html {
   width: 100vw;
 }
 
-// nav {
-//   background-color: #f8f8f8;
-//   padding: 10px 30px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   border-bottom: 1px solid #ddd;
-//   transition: background-color 0.4s, color 0.4s, border-color 0.4s;
-// }
-
-// nav .navbar-brand {
-//   font-size: 1.2rem;
-//   font-weight: 500;
-// }
-
-// nav ul {
-//   list-style: none;
-//   display: flex;
-//   gap: 30px;
-//   font-size: 1rem;
-// }
-
-// nav ul li {
-//   display: inline;
-// }
-
-// nav a {
-//   color: #333;
-//   font-weight: 500;
-//   font-size: 1.2rem;
-//   line-height: 1;
-//   display: inline-block;
-//   padding: 10px 0;
-// }
-
 body,
 section {
   margin: 0;
@@ -55,7 +20,7 @@ section {
   color: var(--darkgray);
   transition: background-color 0.4s, color 0.4s;
   font-family: 'Lato', sans-serif;
-  line-height: 2.0;
+  line-height: 1.0;
   font-weight: 550;
 }
 
@@ -276,8 +241,17 @@ a {
     & .page-header {
       grid-area: grid-header;
       margin: $topSpacing 0 0 0;
+      margin:0;
+      padding:0;
+      // width:100vw;
+      // position: center;
+      // left: 50%;
+      // right: 50%;
+      // margin-left: -50vw;
+      // margin-right: -50vw;
       @media all and ($mobile) {
-        margin-top: 0;
+        // margin-top: 0;
+        margin:0;
         padding: 0;
       }
     }
@@ -288,6 +262,7 @@ a {
 
     & footer {
       grid-area: grid-footer;
+      text-align: center;
     }
 
     & .center,
@@ -296,6 +271,7 @@ a {
       min-width: 100%;
       margin-left: auto;
       margin-right: auto;
+      // text-align: center;
       @media all and ($tablet) {
         margin-right: 0;
       }
