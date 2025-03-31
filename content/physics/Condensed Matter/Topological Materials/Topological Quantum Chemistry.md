@@ -10,8 +10,8 @@ tags:
 > __Question__: Topological insulators represent only a few hundred of the 200,000 stoichiometric compounds. Why? Is there a problem with the band description of materials? 
 
 Chemists and physicists use fundamentally different viewpoints on materials
-	- physicists: momentum space
-	- chemists: real space
+- physicists: momentum space
+- chemists: real space
 A unifying approach of real and reciprocal space is naturally desirable.
 ### Approach
 
