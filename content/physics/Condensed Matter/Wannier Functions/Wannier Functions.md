@@ -3,7 +3,7 @@ title: Wannier Functions
 draft: false
 tags:
   - Physics
-  - Condensed Matter
+  - Condensed-Matter
 ---
 
 Wannier functions are the localized representation of the Bloch energy eigenstates of a periodic crystal. They effectively are related to a given Bloch energy eigenstate through a Fourier transform
@@ -35,7 +35,24 @@ $$
 |\tilde{u}_{n\vec{k}}\rangle = \sum_{m=1}^{J} U_{mn}(\vec{k}) |u_{m\vec{k}}\rangle
 $$
 This is known as a _multiband_ or _non-Abelian_ gauge transformation. It is not obvious whether this procedure is always possible. It can always be accomplished in localized region around some $\vec{k_0}$, where we choose a set $|\tilde{u}_{n\vec{k}}\rangle$ of orthonormal functions spanning the band subspace of $H_{\vec{k_0}}$, being either the eigenstates themselves or some unitary rotation of them. We then choose at each nearby $\vec{k}$ a unitary rotation on the energy eigenstates $|u_{n\vec{k}}\rangle$  such that they are "optimally aligned" with $|\tilde{u}_{n\vec{k_0}}\rangle$. 
-##### Optimal Alignment 
+
+
+### Parallel-Transport Gauge
+
+We are free to choose any gauge we like for each of the $|u_j\rangle$ . We can define new gauges s.t. $|\bar{u}_0\rangle = |u_0\rangle$ , then choose the phase of $|u_1\rangle$ such that $\langle \bar{u}_0 | \bar{u}_1\rangle$ is real and positive. If we propagate this down the line of states, then 
+$$
+\text{Im}\ \text{ln} \langle \bar{u}_j | \bar{u}_{j+1}\rangle = 0
+$$
+This generates what is known as the parallel transport gauge. In this gauge choice,$|\bar{u}_0 \rangle$ is no longer equivalent to  $|\bar{u}_N \rangle$, and they differ by exactly the Berry phase
+$$
+\phi = \text{Im}\ \text{ln} \langle \bar{u}_N | \bar{u}_{0}\rangle
+$$
+The phase difference of the states are exactly zero until an abrupt discontinuity at the end of the loop. 
+
+### Twisted Parallel-Transport Gauge
+We may like to have a choice of phase that is continuous throughout the evolution of the state. 
+
+##### Optimal Alignment: Multiband Parallel-Transport
 Given two sets of orthonormal sets of $J$  states $|u_n\rangle$ and $|\nu_n\rangle$, where the subspaces  $\mathcal{P}_u = \sum |u_n\rangle \langle u_n |$ and $\mathcal{P}_{\nu} = \sum |\nu_n\rangle \langle \nu_n|$ spanned by these states are similar but not identical. We would like to rotate one set such that they are as similar to the other as possible in both phase and character. 
 
 Optimal alignment occurs when 
@@ -77,7 +94,7 @@ The procedure of optimal alignment works locally in $k$ but whether there is alw
 - Expand this set of functions to include periodic images $|t_{n\vec{R}}\rangle$ and construct Bloch like functions $|\chi_{n\vec{k}}\rangle = \sum_{\vec{R}} e^{i\vec{k}\cdot\vec{R}} |t_{n\vec{R}}\rangle$ that are smooth in $\vec{k}$ 
 - Orthonormalize them at each $\vec{k}$ via computing the overlap matrix $S^{(\vec{k})}_{mn} = \langle \chi_{m\vec{k}} | \chi_{n\vec{k}}\rangle$ and construct $|\chi'_{n\vec{k}}\rangle = \sum_m (S_{\vec{k}}^{-1/2})_{mn} |\chi_{m \vec{k}}\rangle$ 
 - Perform $J\times J$ unitary rotation on the $|\psi_{n\vec{k}}\rangle$ so as to obtain $|\tilde{\psi}_{n\vec{k}}\rangle$ that are optimally aligned with the $|\chi'_{n\vec{k}}\rangle$ using the optimal alignment 
-For some choices of trial functions, $|\chi_{n\vec{k}}\rangle$ are not linearly independent and $S_{\vec{k}}$ becomes singular and the procedure fails. For ordinary insulators, the procedure can be fixed via a new choice of trial function. In certain kinds of topological insulators, there can be a [[topological_obstructions|topological obstruction]]; in this case a singularity in $S_{\vec{k}}$ is gauranteed to occur somewhere in the BZ.
+For some choices of trial functions, $|\chi_{n\vec{k}}\rangle$ are not linearly independent and $S_{\vec{k}}$ becomes singular and the procedure fails. For ordinary insulators, the procedure can be fixed via a new choice of trial function. In certain kinds of topological insulators, there can be a [[Topological Obstructions|topological obstruction]]; in this case a singularity in $S_{\vec{k}}$ is gauranteed to occur somewhere in the BZ.
 
 ### Localization
 

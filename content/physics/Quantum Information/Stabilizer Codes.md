@@ -1,3 +1,11 @@
+---
+title: Stabilizer Codes 
+draft: false
+tags: 
+- Physics
+- Quantum Information
+---
+
 The _Pauli group_ $G_n$ for a single qubit it is defined $$G_1 \equiv\{\pm I, \pm i I, \pm X, \pm i X, \pm Y, \pm i Y, \pm Z, \pm i Z \}$$and for $n$ qubits is all $n$-fold tensor products of Pauli matrices with multiplicative factors $\pm 1$ and $\pm i$ to ensure the elements are closed under multiplication. 
 
 Suppose $S$ is a subgroup of the Pauli group $G_n$, and define $V_S$ to be the set of $n$ qubit states which are fixed by every element of $S$ (eigenvalue 1). $V_S$ is the _vector space stabilized by_ $S$, and $S$ is said to be the _stabilizer of the space_ $V_S$.
@@ -13,7 +21,7 @@ For special unitary operations $U$, this transformation of the generators takes 
 ### Clifford Gate
 Clifford gates are the elements of the _Clifford group_, a set of transformations which normalize the $n$-qubit Pauli group. Any unitary operations taking elements of $G_n$ to elements of $G_n$ can be composed from the _Hadamard_, _phase_, and _C-NOT_ gates. By definition, the set of $U$ such that $UG_n U^{\dagger} = G_n$ is the _normalizer_ of $G_n$, and is denoted by $N(G_n)$. 
 
-__Theorem__: Suppose $U$ is any unitary operator on $n$ qubits with the property that if $g\in G_n$ , then $UgU^{\dagger}\in G_n$. Then up to a global phase, $U$ may be composed from $\mathcal{O}(n^2)$ Hadamard, phase, and C-NOT gates. 
+>__Theorem__: Suppose $U$ is any unitary operator on $n$ qubits with the property that if $g\in G_n$ , then $UgU^{\dagger}\in G_n$. Then up to a global phase, $U$ may be composed from $\mathcal{O}(n^2)$ Hadamard, phase, and C-NOT gates. 
 
 Each Pauli gate is trivially an element of the Clifford group. 
 
@@ -25,7 +33,18 @@ Imagine we make a _measurement_ of $g\in G_n$. We assume without loss of general
 
 In _case 1_, either $g$ or $-g$ is an element of the stabilizer since $g_j g |\psi \rangle = gg_j |\psi \rangle = g|\psi\rangle$ , $g|\psi\rangle \in V_s$ and is a multiple of $|\psi\rangle$. If $+g$ is in the stabilizer, then $g|\psi\rangle = |\psi\rangle$ and measurement of $g$ yields $+1$ with probability one, and the measurement does not disturb the state of the system and leaves the stabilizer invariant.
 
-In _case 2_, when $g$ anti-commutes with $g_1$ and commutes with all other generators. $g$ has eigenvalues $\pm 1$ so the projectors for the measurement outcomes $\pm 1$ are given by $(I\pm g)/2$, respectively, and the measurement probabilities are given by $$\begin{align} p(+1) &= \text{Tr}\left(\frac{I+g}{2} |\psi \rangle \langle\psi|\right)  \\ p(-1) &= \text{Tr}\left(\frac{I-g}{2} |\psi \rangle \langle\psi|\right) \end{align}$$ Since $g_1 |\psi\rangle = |\psi\rangle$ and $gg_1 = - g_1 g$ then $$\begin{align}p(+1) &= \text{Tr}\left( \frac{I+g}{2} g_1\right) |\psi \rangle \langle\psi|  \\ &= \text{Tr}\left(g_1 \frac{I-g}{2} \right) |\psi \rangle \langle\psi| \end{align}$$ Applying the cyclic property of the trace, we may take $g_1$ to the right hand end of the trace and absorb it into $\langle \psi |$ using $g_1 = g_1^{\dagger}$, giving $$p(+1) = \text{Tr}\left(\frac{I-g}{2} |\psi \rangle \langle\psi\right) = p(-1)$$ Thus $p(+1) = p(-1) = 1/2$. Suppose the result $+1$ occurs, then the system is in state $|\psi^{+}\rangle \equiv (I+g) |\psi\rangle / \sqrt{2}$ which has stabilizer $\langle g, g_2, \cdots, g_n \rangle$. Similarly, if the result $-1$ occurs the posterior state is stabilized by $\langle -g, g_2, \cdots, g_n\rangle$. 
+In _case 2_, when $g$ anti-commutes with $g_1$ and commutes with all other generators. $g$ has eigenvalues $\pm 1$ so the projectors for the measurement outcomes $\pm 1$ are given by $(I\pm g)/2$, respectively, and the measurement probabilities are given by 
+$$ 
+p(+1) = \text{Tr}\left(\frac{I+g}{2} |\psi \rangle \langle\psi|\right)
+$$
+$$
+p(-1) = \text{Tr}\left(\frac{I-g}{2} |\psi \rangle \langle\psi|\right)
+$$ 
+Since $g_1 |\psi\rangle = |\psi\rangle$ and $gg_1 = - g_1 g$ then 
+$$
+p(+1) = \text{Tr}\left( \frac{I+g}{2} g_1\right) |\psi \rangle \langle\psi|  = \text{Tr}\left(g_1 \frac{I-g}{2} \right) |\psi \rangle \langle\psi| 
+$$ 
+Applying the cyclic property of the trace, we may take $g_1$ to the right hand end of the trace and absorb it into $\langle \psi |$ using $g_1 = g_1^{\dagger}$, giving $$p(+1) = \text{Tr}\left(\frac{I-g}{2} |\psi \rangle \langle\psi\right) = p(-1)$$ Thus $p(+1) = p(-1) = 1/2$. Suppose the result $+1$ occurs, then the system is in state $|\psi^{+}\rangle \equiv (I+g) |\psi\rangle / \sqrt{2}$ which has stabilizer $\langle g, g_2, \cdots, g_n \rangle$. Similarly, if the result $-1$ occurs the posterior state is stabilized by $\langle -g, g_2, \cdots, g_n\rangle$. 
 
 ## The Gottesman-Knill theorem
 

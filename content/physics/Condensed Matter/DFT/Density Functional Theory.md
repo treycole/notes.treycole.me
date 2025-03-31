@@ -1,5 +1,19 @@
-- Approximate ground state energy $$E_g = \text{min}_{\psi} \langle \psi|H|\psi\rangle $$
-- Minimize in two steps $$\text{min}_{\psi \rightarrow n(r)} \langle \psi|H|\psi\rangle = \text{min}_{\psi \rightarrow n(r)}  \langle \psi|T + V_{e-e}|\psi\rangle  + \int d^3 r V_{ext}(r) n(r)$$
+---
+title: Density Functional Theory
+draft: false
+tags: 
+- Physics
+- DFT
+- Condensed-Matter
+---
+
+The goal of density functional theory (DFT) is to approximate the ground state energy $$E_g = \text{min}_{\psi} \langle \psi|H|\psi\rangle $$. We do this through an iterative algorithm
+
+Minimize 
+$$
+\text{min}_{\psi \rightarrow n(r)} \langle \psi|H|\psi\rangle = \text{min}_{\psi \rightarrow n(r)}  \langle \psi|T + V_{e-e}|\psi\rangle  + \int d^3 r V_{ext}(r) n(r)
+$$
+
 #### Kohn-Sham 
 - Map many-body to independent-particle problem
 $$

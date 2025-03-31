@@ -1,4 +1,12 @@
-A space group is the symmetry group of a repeating pattern in space. The elements of the space group are the rigid transformations that leave the pattern unchanged. The point groups are $\subset$ of the space groups. The set of all point groups and translations form the space groups.
+---
+title: Space Groups 
+draft: false
+tags: 
+- Physics
+- Condensed-Matter
+---
+
+A space group is the symmetry [[Groups|group]] of a repeating pattern in space. The elements of the space group are the rigid transformations that leave the pattern unchanged. The point groups are $\subset$ of the space groups. The set of all point groups and translations form the space groups.
 ### Symmorphic 
 A space group is called 'symmorphic' if, apart from lattice rotations, all generating symmetry operations leave one common point fixed. Thus, only point-group operations are permitted: rotations, reflections, inversions, and rotoinversions. 
 ### Herman-Maugin Space Group Symbol

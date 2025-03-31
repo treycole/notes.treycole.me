@@ -1,3 +1,10 @@
+---
+title: Random Calculus Results
+draft: false
+tags: 
+- Math
+- Calculus
+---
 
 These are some useful results that are not easily found on the web. 
 

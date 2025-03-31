@@ -6,65 +6,65 @@
       <description>Last 10 notes on Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Interesting Results in Calculus</title>
-    <link>https://treycole.me/Math/Interesting-Results-in-Calculus</link>
-    <guid>https://treycole.me/Math/Interesting-Results-in-Calculus</guid>
-    <description>These are some useful results that are not easily found on the web.</description>
-    <pubDate>Mon, 31 Mar 2025 01:20:42 GMT</pubDate>
-  </item><item>
-    <title>Connectivity</title>
-    <link>https://treycole.me/Math/Graph-Theory/Connectivity</link>
-    <guid>https://treycole.me/Math/Graph-Theory/Connectivity</guid>
-    <description>The minimum number of elements (nodes or edges) that need to be removed to separate the remaining nodes into two or more isolated subgraphs.</description>
-    <pubDate>Mon, 31 Mar 2025 01:11:10 GMT</pubDate>
-  </item><item>
-    <title>Welcome to my digitial garden! 🪴🌱</title>
-    <link>https://treycole.me/</link>
-    <guid>https://treycole.me/</guid>
-    <description> This page is where I keep my notes. The graph on the right shows a map of the interconnections between subjects I have written about.</description>
-    <pubDate>Sun, 30 Mar 2025 08:11:19 GMT</pubDate>
-  </item><item>
-    <title>Berry Phase</title>
-    <link>https://treycole.me/Physics/berry_phase</link>
-    <guid>https://treycole.me/Physics/berry_phase</guid>
-    <description>The general definition of the Berry phase is a phase angle (from 0 to 2\pi) that a complex vector acquires as it is transported through a path in its complex vector space.</description>
-    <pubDate>Sun, 30 Mar 2025 04:26:58 GMT</pubDate>
-  </item><item>
-    <title>Topological Quantum Chemistry</title>
-    <link>https://treycole.me/Physics/topological_quantum_chem</link>
-    <guid>https://treycole.me/Physics/topological_quantum_chem</guid>
-    <description>Ref: Bradlyn et.al, Nature, 20 Jul 2017 Question: Topological insulators represent only a few hundred of the 200,000 stoichiometric compounds.</description>
-    <pubDate>Sun, 30 Mar 2025 04:26:55 GMT</pubDate>
-  </item><item>
-    <title>Topological Obstructions</title>
-    <link>https://treycole.me/Physics/topological_obstructions</link>
-    <guid>https://treycole.me/Physics/topological_obstructions</guid>
-    <description>Ref: Topological Quantum Chemistry Wannier functions of a topologically trivial group of bands are smoothly continuous to an atomic limit, are exponentially localized, and transform under a band representation.</description>
-    <pubDate>Sun, 30 Mar 2025 04:26:53 GMT</pubDate>
-  </item><item>
-    <title>Wannier Functions</title>
-    <link>https://treycole.me/Physics/wannier_functions</link>
-    <guid>https://treycole.me/Physics/wannier_functions</guid>
-    <description>Wannier functions are the localized representation of the Bloch energy eigenstates of a periodic crystal.</description>
-    <pubDate>Sun, 30 Mar 2025 04:26:50 GMT</pubDate>
-  </item><item>
-    <title>Physics notes</title>
-    <link>https://treycole.me/Physics/</link>
-    <guid>https://treycole.me/Physics/</guid>
-    <description></description>
-    <pubDate>Sun, 30 Mar 2025 04:25:17 GMT</pubDate>
-  </item><item>
     <title>Topological Obstructions</title>
     <link>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Obstructions</link>
     <guid>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Obstructions</guid>
-    <description>Ref: Topological Quantum Chemistry Wannier functions of a topologically trivial group of bands are smoothly continuous to an atomic limit, are exponentially localized, and transform under a band representation.</description>
-    <pubDate>Sun, 30 Mar 2025 03:43:02 GMT</pubDate>
+    <description>Wannier functions of a topologically trivial group of bands are smoothly continuous to an atomic limit, are exponentially localized, and transform under a band representation.</description>
+    <pubDate>Mon, 31 Mar 2025 02:54:38 GMT</pubDate>
   </item><item>
-    <title>Topological Crystalline Insulators - Liang Fu</title>
-    <link>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Crystalline-Insulators---Liang-Fu</link>
-    <guid>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Crystalline-Insulators---Liang-Fu</guid>
-    <description>link Cousin of TIs Structure property relation Materials made out of chemically similar elements arranged in same crystal structure have similar electronic properties e.g.</description>
-    <pubDate>Tue, 07 Jan 2025 07:17:23 GMT</pubDate>
+    <title>Quantum Geometry</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Quantum-Geometry</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Quantum-Geometry</guid>
+    <description> Quantum metric g describes distance between wavefunctions T = g + i \Omega Berry curvature is imaginary component.</description>
+    <pubDate>Mon, 31 Mar 2025 02:52:30 GMT</pubDate>
+  </item><item>
+    <title>Axion Insulators</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Axion-Insulators</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Axion-Insulators</guid>
+    <description></description>
+    <pubDate>Mon, 31 Mar 2025 02:51:54 GMT</pubDate>
+  </item><item>
+    <title>Topological Quantum Chemistry</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Quantum-Chemistry</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Quantum-Chemistry</guid>
+    <description> Question: Topological insulators represent only a few hundred of the 200,000 stoichiometric compounds.</description>
+    <pubDate>Mon, 31 Mar 2025 02:51:20 GMT</pubDate>
+  </item><item>
+    <title>Topological Insulators</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Insulators</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Insulators</guid>
+    <description>Predicted by Kane &amp; Mele (2005), and Fu and Kane (2006) as a class of 2D nonmagnetic spin Hall insulators whose Bloch states are topologically twisted.</description>
+    <pubDate>Mon, 31 Mar 2025 02:50:29 GMT</pubDate>
+  </item><item>
+    <title>Topological Materials</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Materials</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Materials</guid>
+    <description>Until recently, the standard paradigm for understanding phases of matter was through Landau’s symmetry breaking theory and order parameters.</description>
+    <pubDate>Mon, 31 Mar 2025 02:50:19 GMT</pubDate>
+  </item><item>
+    <title>Space Groups</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Crystallography/Space-Groups</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Crystallography/Space-Groups</guid>
+    <description>A space group is the symmetry group of a repeating pattern in space.</description>
+    <pubDate>Mon, 31 Mar 2025 02:44:28 GMT</pubDate>
+  </item><item>
+    <title>Point Groups</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Crystallography/Point-Groups</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Crystallography/Point-Groups</guid>
+    <description>In geometry, a point group is a mathematical group of symmetry operations (isometries in a Euclidean space) that have a fixed point in common.</description>
+    <pubDate>Mon, 31 Mar 2025 02:44:17 GMT</pubDate>
+  </item><item>
+    <title>Wyckoff Positions</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Crystallography/Wyckoff-Positions</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Crystallography/Wyckoff-Positions</guid>
+    <description>In crystallography, a Wyckoff position is any point in a set of points whose site symmetry groups are all conjugate subgroups of one another.</description>
+    <pubDate>Mon, 31 Mar 2025 02:43:51 GMT</pubDate>
+  </item><item>
+    <title>Wannier Functions</title>
+    <link>https://treycole.me/Physics/Condensed-Matter/Wannier-Functions/Wannier-Functions</link>
+    <guid>https://treycole.me/Physics/Condensed-Matter/Wannier-Functions/Wannier-Functions</guid>
+    <description>Wannier functions are the localized representation of the Bloch energy eigenstates of a periodic crystal.</description>
+    <pubDate>Mon, 31 Mar 2025 02:38:36 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -1,30 +1,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://treycole.me/Math/Calculus/Interesting-Results-in-Calculus</loc>
+    <lastmod>2025-03-31T01:27:56.539Z</lastmod>
+  </url><url>
     <loc>https://treycole.me/Math/Graph-Theory/Connectivity</loc>
-    <lastmod>2025-03-31T01:11:10.957Z</lastmod>
+    <lastmod>2025-03-31T01:21:59.000Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Math/Group-Theory/Groups</loc>
-    <lastmod>2024-03-15T23:00:37.000Z</lastmod>
+    <lastmod>2025-03-31T01:21:59.000Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Math/Group-Theory/Orthogonal-Group</loc>
-    <lastmod>2024-03-15T23:00:19.000Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Math/Interesting-Results-in-Calculus</loc>
-    <lastmod>2025-03-31T01:20:42.703Z</lastmod>
+    <lastmod>2025-03-31T01:21:59.000Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Anyons</loc>
     <lastmod>2025-01-07T07:16:01.880Z</lastmod>
   </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Crystallography/Point-Groups</loc>
+    <lastmod>2025-03-31T02:44:17.630Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Crystallography/Space-Groups</loc>
+    <lastmod>2025-03-31T02:44:28.287Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Crystallography/Wyckoff-Positions</loc>
+    <lastmod>2025-03-31T02:43:51.217Z</lastmod>
+  </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/DFT/Berkley-GW</loc>
-    <lastmod>2024-06-13T19:07:21.786Z</lastmod>
+    <lastmod>2025-03-31T02:37:11.456Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/DFT/Density-Functional-Theory</loc>
-    <lastmod>2024-05-07T19:14:24.000Z</lastmod>
+    <lastmod>2025-03-31T02:37:07.911Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Fermi-liquid-theory</loc>
     <lastmod>2024-05-07T19:15:49.000Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/Condensed-Matter/Fractional-Quantum-Hall-Effect</loc>
-    <lastmod>2024-12-12T06:35:47.949Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Kondo-Lattice</loc>
     <lastmod>2024-05-07T19:16:06.000Z</lastmod>
@@ -41,71 +47,62 @@
     <loc>https://treycole.me/Physics/Condensed-Matter/Polarons</loc>
     <lastmod>2024-06-13T15:30:10.016Z</lastmod>
   </url><url>
-    <loc>https://treycole.me/Physics/Condensed-Matter/Quantum-Geometry</loc>
-    <lastmod>2024-05-07T19:16:48.000Z</lastmod>
-  </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Quantum-Monte-Carlo</loc>
-    <lastmod>2024-05-07T19:17:09.000Z</lastmod>
+    <lastmod>2025-03-31T02:30:32.901Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Semimetals</loc>
-    <lastmod>2024-03-05T05:51:12.000Z</lastmod>
+    <lastmod>2025-03-31T02:30:19.197Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Strange-metal</loc>
     <lastmod>2024-05-07T19:17:33.000Z</lastmod>
   </url><url>
-    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Crystalline-Insulators---Jen-Cano</loc>
-    <lastmod>2024-12-07T04:45:39.178Z</lastmod>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Axion-Insulators</loc>
+    <lastmod>2025-03-31T02:51:54.935Z</lastmod>
   </url><url>
-    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Crystalline-Insulators---Liang-Fu</loc>
-    <lastmod>2025-01-07T07:17:23.010Z</lastmod>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Chern-Insulator</loc>
+    <lastmod>2025-03-31T02:36:04.644Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Fractional-Quantum-Hall-Effect</loc>
+    <lastmod>2025-03-31T02:33:29.985Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Quantum-Geometry</loc>
+    <lastmod>2025-03-31T02:52:30.864Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Crystalline-Insulators</loc>
+    <lastmod>2025-03-31T02:36:22.248Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Insulators</loc>
+    <lastmod>2025-03-31T02:50:29.494Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Materials</loc>
-    <lastmod>2024-03-13T15:48:01.000Z</lastmod>
+    <lastmod>2025-03-31T02:50:19.774Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Obstructions</loc>
-    <lastmod>2025-03-30T03:43:02.820Z</lastmod>
+    <lastmod>2025-03-31T02:54:38.577Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Quantum-Chemistry</loc>
+    <lastmod>2025-03-31T02:51:20.164Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Topological-Materials/Topological-Semimetals</loc>
-    <lastmod>2024-03-13T19:14:57.000Z</lastmod>
+    <lastmod>2025-03-31T02:37:00.960Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Condensed-Matter/Wannier-Functions/Wannier-Function-Perturbation-Theory</loc>
     <lastmod>2024-06-15T17:34:38.029Z</lastmod>
   </url><url>
-    <loc>https://treycole.me/Physics/Crystallography/Point-Groups</loc>
-    <lastmod>2025-01-07T07:12:14.825Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/Crystallography/Space-Groups</loc>
-    <lastmod>2024-12-09T02:49:55.771Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/Crystallography/Wyckoff-Positions</loc>
-    <lastmod>2025-01-07T07:09:12.286Z</lastmod>
+    <loc>https://treycole.me/Physics/Condensed-Matter/Wannier-Functions/Wannier-Functions</loc>
+    <lastmod>2025-03-31T02:38:36.533Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Quantum-Information/Entropy-and-Information</loc>
-    <lastmod>2024-05-11T19:15:59.000Z</lastmod>
+    <lastmod>2025-03-31T01:38:39.651Z</lastmod>
   </url><url>
     <loc>https://treycole.me/Physics/Quantum-Information/Stabilizer-Codes</loc>
-    <lastmod>2024-05-11T19:23:25.000Z</lastmod>
+    <lastmod>2025-03-31T01:38:53.792Z</lastmod>
   </url><url>
-    <loc>https://treycole.me/Physics/Time-Dependent-Perturbation-Theory</loc>
+    <loc>https://treycole.me/Physics/Quantum-Mechanics/Berry-Phase</loc>
+    <lastmod>2025-03-31T02:37:56.630Z</lastmod>
+  </url><url>
+    <loc>https://treycole.me/Physics/Quantum-Mechanics/Time-Dependent-Perturbation-Theory</loc>
     <lastmod>2024-05-10T19:56:46.000Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/Trace</loc>
-    <lastmod>2024-12-06T15:04:04.000Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/berry_phase</loc>
-    <lastmod>2025-03-30T04:26:58.095Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/</loc>
-    <lastmod>2025-03-30T04:25:17.486Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/topological_obstructions</loc>
-    <lastmod>2025-03-30T04:26:53.381Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/topological_quantum_chem</loc>
-    <lastmod>2025-03-30T04:26:55.486Z</lastmod>
-  </url><url>
-    <loc>https://treycole.me/Physics/wannier_functions</loc>
-    <lastmod>2025-03-30T04:26:50.703Z</lastmod>
   </url><url>
     <loc>https://treycole.me/</loc>
     <lastmod>2025-03-30T08:11:19.000Z</lastmod>

@@ -1,4 +1,5 @@
-- Sign problem
+
+Famous sign problem
 ### Central limit Theorem
 $$ \langle O \rangle_{P} = \int_{\Omega} dx P(x) O(x) \quad \int_{\Omega} dx P(x) = 1$$ Generate set of configurations $x_i$, distributed according to $P(x)$ and that $O(x_i)$ are statistically independent, then
 $$ \langle O\rangle_P \approx \frac{1}{N} \sum_{i=1}^N O(x_i) = X$$ $$ \mathcal{P}(X) = \frac{1}{2\pi} e^{(X-)^2/2\sigma}$$

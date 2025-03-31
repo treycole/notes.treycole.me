@@ -1,3 +1,11 @@
+---
+title: Entropy in Quantum Information
+draft: false
+tags:
+  - Physics
+  - Quantum Information
+---
+
 _Entropy_ measures how much uncertainty there is in the state of a physical system. 
 ## Shannon Entropy
 Key concept in classical information theory is _Shannon entropy_. Suppose we learn the value of a random variable $X$. The Shannon entropy of $X$ quantifies how much information we gain, on average, after we learn the value of $X$. Alternatively, the entropy of $X$ measures the amount of uncertainty about $X$ before we learn its value. 
