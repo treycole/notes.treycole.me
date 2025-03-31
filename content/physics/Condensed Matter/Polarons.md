@@ -1,0 +1,1 @@
+Localized excitations formed by lattice distortions

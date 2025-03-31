@@ -10,8 +10,8 @@
     border-radius: 5px;
     border: 0px solid var(--lightgray);
     box-sizing: border-box;
-    height: 400px;
-    margin: 0.5em 0;
+    height: 200px;
+    margin: 0.1em 0.1em;
     position: relative;
     transition: background-color 0.5s ease;
     overflow: hidden;
@@ -21,7 +21,7 @@
       background: none;
       border: none;
       color: var(--dark);
-      opacity: 0.5;
+      opacity: 0.8;
       width: 25px;
       height: 25px;
       position: absolute;
