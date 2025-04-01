@@ -15,9 +15,9 @@ export default (() => {
           <span>
             <a href="https://notes.treycole.me">Notes</a>
           </span>
-          <span>
+          {/* <span>
             <a href="https://treycole.me/cv.pdf">CV</a>
-          </span>
+          </span> */}
         </div>
       <hr style="background-color: var(--gray); border-top: 1px var(--gray) solid; margin-top: 1.3rem"></hr>
       </div>
