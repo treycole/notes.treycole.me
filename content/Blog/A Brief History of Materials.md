@@ -65,7 +65,7 @@ After Newton's laws are formalized, the study of science shifts from purely empi
 ### __Crystallography (1781)__ 
 René Just Haüy discovers that crystals always cleave along crystallographic planes. He deduced that they must be _periodic_ and composed of regular patterns of tiny molecules. 
 
-> This understanding is directly in line with how modern research approaches the study of crystalline materials.
+> This understanding how modern research approaches the study of crystalline materials.
 ### __The Battery (1800)__ 
 The first electric battery is developed by Alessandro Volta
 ### __Ohm's Law (1827)__ 
@@ -75,7 +75,7 @@ Michael Faraday studies the interaction of light and magnetic fields with matter
 ### __Crystal Lattices (1850)__ 
 Auguste Bravais enumerates the possible arrangements of crystal lattices. 
 
-> This is still how we understand the arrangement of crystalline materials.
+> This enumeration still stands today as a pivotal component of condensed matter research.
 ### __Maxwell's Equations (1861)__ 
 James Clerk Maxwell summarizes the fundamental equations of electromagnetism into a cohesive theory unifying electricity, magnetism, and light. 
 
