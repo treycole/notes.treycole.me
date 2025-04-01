@@ -7,18 +7,13 @@ tags:
   - Condensed-Matter
 ---
 > [!Warning] Disclaimers
-> - There are numerous resources out there that will likely provide a better overview than myself.  
 >  - I am not trying to provide an academic report.  
-> -  I am relying on the internet's ability to provide accurate dates and explanations for the earlier, less familiar to me, parts of human history (I wasn't there) 
-> - I will try to be as comprehensive as possible, while at the same time cherry-picking some of the things I find most significant and broadly accessible, which may vary from other's perspectives.
+> - I am writing only on the things I find most relevant and broadly accessible.
 > -  This is simply for my own enjoyment, take from it what you please.
 
+Our relationship to materials and matter goes back to the earliest days of mankind, and is inseparable from the human story. The ages of history are defined by humanity's ability to control and manipulate the matter around them. Throughout history, we have used materials to improve our condition. Our ability to do say may be _the_ defining characteristic that sets us apart from other species. 
 
-This post will take a look at the history of humanity's relationship with materials and its ability to control them. We will go from the stone age, up through quantum mechanics, and onto our modern day use of semiconductors, superconductors, and all of the other fascinating advancements in our use of materials. 
-
-Our relationship to materials and matter goes to the earliest days of mankind, and is inseparable from the human story. The ages of history are defined by humanity's ability to control and manipulate the matter around them. Since the dawn of mankind, we have used materials to improve our condition. Our ability to do say may be _the_ defining characteristic that sets us apart from other species. 
-
-It's fascinating that so many advancements have occurred just within the last couple hundred of years. This is just a very small percentage of our timeline. Nearly 30,000 years passed between our first use of materials to the advent of electricity. This dramatic growth of development makes this a very exciting time to be a condensed matter physicist.
+It's fascinating that so many advancements have occurred just within the last couple hundred of years. This is just a very small percentage of our timeline. Nearly 30,000 years passed between our first use of materials to the advent of electricity. This dramatic growth in the rate of development makes this a very exciting time to be a condensed matter physicist.
 # Pre-scientific Era 🗿
 
 In the earliest days, the use of materials was largely empirical, driven by trial and error. There was no understanding of the underlying atomic structure, or quantum behavior that we now know dictate material properties. 
@@ -31,9 +26,12 @@ Copper is a soft metal, and can be bent and hammered into useful shapes. However
 ###  __Iron Age (1200 - 300 BC)__ 
 The development of iron and steel replaced bronze, as iron was more naturally abundant and could be made stronger and less brittle.
 ### __Magnetism (600 BC)__ 
-Iodestones containing magnetized pieces of magnetite were discovered to attract iron. The philosopher Thales of Miletus is thought to have been the first to scientifically discuss magnetism. The word "magnet" comes from Iodestons found in Magnesia, Anatolia. This would be shortly followed by the invention of the compass, revolutionizing travel, and allowing humans to step foot out into the world beyond their spawn point.
+Iodestones containing magnetized pieces of magnetite were discovered to attract iron. The philosopher Thales of Miletus is thought to have been the first to scientifically discuss magnetism. The word "magnet" comes from Iodestons found in Magnesia, Anatolia. This would later lead to the development of the compass, revolutionizing travel, and allowing humans to step foot out into the world beyond.
 ### __Electricity (600 BC)__ 
-Thales of Miletus made observations that rubbing an amber rod creates static electricity. At the time, he believed the forces from the electricity were magnetic. In fact, electricity was noticed some time before, dating back to 2750 BC, in electric fish such as eels. Humanity has just observed one of the fundamental forces of nature.
+Thales of Miletus made the first recorded observations that rubbing an amber rod creates static electricity. Humanity has just observed one of the fundamental forces of nature. Thales of Miletus believed the forces from the electricity were instead magnetic. 
+
+> - Electricity was actually noticed some time before, dating back to 2750 BC, in electric fish such as eels. 
+> - "Electron" comes from the Greek word for amber (_elektron_)
 ### __Atomism (400 BC)__ 
 Leucippus and Democritus postulate atomism, an early theory of atoms.
 ### __Optics (160)__ 
@@ -47,21 +45,27 @@ Vannoccio Biringuccio publishes first systematic book on metallurgy, the study o
 
 # Birth of Science 🔭
 
-Beyond the 1600s, we start to see a systematic study of materials, and theories began to develop to understand how materials behave. This is the dawn of the scientific era, and would result in a rapid growth in our understanding of the universe.
+Around the 1600s, we start to see a systematic study of materials, and theories began to develop to understand how materials behave. This is the dawn of the scientific era, and would result in a rapid growth in our understanding of the universe.
 ### __Sphere packing (1611)__ 
-Johannes Kepler first postulates that no arrangement of equally sized spheres has a greater average density than that of cubic close packing and hexagonal close packing arrangements. These arrangements of spheres would later be found to be how atoms arrange themselves in many crystals.
+Johannes Kepler first postulates that no arrangement of equally sized spheres has a greater average density than that of cubic close packing and hexagonal close packing arrangements. 
+
+> We now know the atoms of many crystalline materials  form in cubic and hexagonal close packing arrangements.
 ### __Snell's Law (1621)__ 
 Willebrord Snellius formulates a mathematical relationship for the angle between the direction light is traveling before and after entering a solid (reflection and refraction)
 ### __Hooke's Law (1660)__ 
-Robert Hook derives an equation for the behavior of springs, a seemingly disconnected idea from the behavior of matter. As any physicist will know, almost every system we know of has some connection to the behavior of a spring. There is a quote somewhere that says "its all springs all the way down." In fact, many of the interactions between nuclei in a material can be modeled as connected springs.
+Robert Hook derives an equation for the behavior of springs, a seemingly disconnected idea from the behavior of matter. 
+
+> As any physicist will know, almost every system we know of has some connection to the behavior of a spring. There is a quote somewhere that says, "its all springs all the way down." In fact, the interactions between nuclei in a material can be modeled as connected springs.
 ### __Newton's Laws (1687)__ 
-Isaac Newton formulates his now famous laws of motion. This would be the beginning of a revolution in the understanding of how matter moves through space. This marks a fundamental shift in how we approach the study of matter.
+Isaac Newton formulates his now famous laws of motion. This would be the beginning of a revolution in the understanding of how matter moves through space; marking a fundamental shift in how we approach the study of matter.
 
 # The Electric Era ⚡️
 
 After Newton's laws are formalized, the study of science shifts from purely empirical to more mathematical and theoretical. From the 1700s onward, humanity begins to harness the power of electricity. This is highlighted by the increasing understanding of electromagetism, pinpointed by the landmark theories of James Clerk Maxwell.
 ### __Crystallography (1781)__ 
-René Just Haüy discovers that crystals always cleave along crystallographic planes. He deduced that they must be _periodic_ and composed of regular patterns of tiny molecules. This understanding is directly in line with how modern research approaches the study of crystalline materials.
+René Just Haüy discovers that crystals always cleave along crystallographic planes. He deduced that they must be _periodic_ and composed of regular patterns of tiny molecules. 
+
+> This understanding is directly in line with how modern research approaches the study of crystalline materials.
 ### __The Battery (1800)__ 
 The first electric battery is developed by Alessandro Volta
 ### __Ohm's Law (1827)__ 
@@ -69,15 +73,25 @@ Georg Ohm publishes the relationship between voltage, current, and resistance of
 ### __Light and Magnets (1845)__ 
 Michael Faraday studies the interaction of light and magnetic fields with matter.
 ### __Crystal Lattices (1850)__ 
-Auguste Bravais enumerates the possible arrangements of crystal lattices. This is still how we understand the arrangement of crystalline materials.
+Auguste Bravais enumerates the possible arrangements of crystal lattices. 
+
+> This is still how we understand the arrangement of crystalline materials.
 ### __Maxwell's Equations (1861)__ 
-James Clerk Maxwell summarizes the fundamental equations of electromagnetism into a cohesive theory unifying electricity, magnetism, and light. This is a landmark in physics, and would set the stage for future discoveries by Einstein to revolutionize how we see the universe. Einstein would later remark, "I stand on the shoulders of Maxwell." Perhaps no earlier theory has shared the remarkable symmetry and mathematical beauty of Maxwell's equations.
+James Clerk Maxwell summarizes the fundamental equations of electromagnetism into a cohesive theory unifying electricity, magnetism, and light. 
+
+> This is a landmark in physics, and would set the stage for future discoveries by Einstein to revolutionize how we see the universe.  Einstein would later remark, "I stand on the shoulders of Maxwell." Perhaps no earlier theory has shared the remarkable symmetry and mathematical beauty of Maxwell's equations.
 ### __Hall Effect (1879)__ 
-Edwin Hall discovers what is now known as the "Hall effect," observing that electrons are deflected to the edges of a material in the presence of a magnetic field perpendicular to their direction of travel. This would be a foundational experiment for the later observations of the quantum Hall effect, an experiment that started the revolution of topological materials.
+Edwin Hall discovers what is now known as the "Hall effect," observing that electrons are deflected to the edges of a material in the presence of a magnetic field perpendicular to their direction of travel. 
+
+> This would be a foundational experiment for the later observations of the quantum Hall effect, an experiment that started the revolution of topological materials.
 ### __Photoelectric Effect (1887)__ 
-Heinrich Hertz discovers the photoelectric effect, the emission of electrons from a material caused by shining light onto it. This experiment was later explained by Einstein and would win him the Nobel Prize.
+Heinrich Hertz discovers the photoelectric effect, the emission of electrons from a material caused by shining light onto it. 
+
+>This experiment was later explained by Einstein and would win him the Nobel Prize.
 ### __The Electron (1897)__ 
-J. J. Thompson discovers the a "corpuscle" of charge 1000 times smaller than the atom. This would later be termed the "electron." Perhaps the most important particle in all of condensed matter physics.
+J. J. Thompson discovers the a "corpuscle" of charge 1000 times smaller than the atom. This would later be termed the "electron." 
+
+> Perhaps the most important particle in all of condensed matter physics.
 
 # Quantum and Relativistic Era 🌀
 
@@ -92,7 +106,7 @@ In a _single year_, Einstein publishes his papers on special relativity revoluti
 ### __Superconductivity (1911)__ 
 Kamerlingh Onnes discovers superconductivity in cryogenically cooled Mercury. Upon cooling below temperatures of 4 Kelvin, he observed the resistance drops to zero, showing a perfect conductor of electricity.
 
-> 4 Kelvin is __very__ cold. In Farenheit it is -452.4°F and in Celsius is -269.15°C.
+> 4 Kelvin is __very__ cold. In Farenheit it is -452.4°F and in Celsius is -269.15°C. The cosmic microwave background temperature of space is ~2.7 K — so 4 K is only _slightly_ warmer than the emptiness of the universe.
 ### __de Broglie Waves (1923)__ 
 Louis de Broglie postulates that matter may behave as waves and particles depending on how one observes them. This is the beginning of the theory of quantum mechanics. 
 ### __Schrödinger's Equation (1926)__ 
@@ -101,7 +115,7 @@ Erwin Schrödinger uses de Broglie's theory to formulate the now famous Schrödi
 > It's amusing to think that quantum mechanics was being developed at the same time as people were doing the Charleston.
 
 ### __Bloch's Theorem (1929)__ 
-Felix Bloch finds the mathematical form of the electron wave in a periodic crystal, a fundamental result in modern solid state research. 
+Felix Bloch derives the mathematical form of the electron wave in a periodic crystal, a fundamental result in modern solid state research. 
 ### __Landau Theory of Symmetry (1937)__ 
 Lev Landau describes a theory of phase transitions of matter in terms of symmetries and order parameters. This changes our understanding of phases of matter.
 ### __Graphene (1947)__ 
