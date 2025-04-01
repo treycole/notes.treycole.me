@@ -16,7 +16,19 @@ The polar decomposition can be seen as the matrix analog of the polar form of a 
 The polar form may be extended to _rectangular matrices_, $A\in \mathbb{C}^{m\times n}$, by requiring $U\in\mathbb{C}^{m\times n}$ be a _semi-unitary_ matrix, and $P\in \mathbb{C}^{n\times n}$ be a positive semi-definite Hermitian matrix as before. The decomposition always exists and $P$ is always unique. The matrix $U$ is only unique if $A$ has _full rank_. 
 
 ## Relation to SVD
-In terms of the SVD of $A=W\Sigma V^*$, one has $$\begin{align} P&=V\Sigma V^* \\ U&= WV^*\end{align}$$ where $U$, $V$, and $W$ are unitary matrices. The general derivation is as follows $$A=WD^{1/2}V^*=(WD^{1/2}W^*)(WV^*) = PU $$More generally, if $A$ is some rectangular $n\times m$ matrix, its SCD can be written as $A=WD^{1/2}V^*$ where now $W$ and $V$ are _isometries_ with dimensions $n\times r$ and $m\times r$, respectively, were $r\equiv \text{rank}(A)$, and $D$ is again diagonal positive semi-definite square matrix with dimensions $r\times r$. The same reasoning applies, but now $U=WV^*$ is not in general unitary. Nonetheless, $U$ has the same support and range as $A$, and it satisfies $UU^*=WW^*$. This makes $U$ into an isometry when its action is restricted onto the support of $A$, that is, it means $U$ is a _partial isometry_. 
+In terms of the SVD of $A=W\Sigma V^*$, one has 
+$$
+P =V\Sigma V^*
+$$
+$$
+U = WV^*
+$$
+
+where $U$, $V$, and $W$ are unitary matrices. The general derivation is as follows 
+$$
+A=WD^{1/2}V^*=(WD^{1/2}W^*)(WV^*) = PU 
+$$
+More generally, if $A$ is some rectangular $n\times m$ matrix, its SVD can be written as $A=WD^{1/2}V^*$ where now $W$ and $V$ are _isometries_ with dimensions $n\times r$ and $m\times r$, respectively, were $r\equiv \text{rank}(A)$, and $D$ is again diagonal positive semi-definite square matrix with dimensions $r\times r$. The same reasoning applies, but now $U=WV^*$ is not in general unitary. Nonetheless, $U$ has the same support and range as $A$, and it satisfies $UU^*=WW^*$. This makes $U$ into an isometry when its action is restricted onto the support of $A$, that is, it means $U$ is a _partial isometry_. 
 
 ## Partial Isometry
 A partial isometry is a linear map between Hilbert spaces such that it is an isometry on the orthogonal complement of its kernel. The orthogonal complement of its kernel is called the initial subspace, and its range is called the final subspace. 
