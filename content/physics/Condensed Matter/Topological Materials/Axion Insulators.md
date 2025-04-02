@@ -5,6 +5,7 @@ tags:
   - Condensed-Matter
   - Topological-Materials
 ---
+#### Ref: "Berry Phases in Electronic Structure Theory," David Vanderbilt
 ## Orbital Magnetization
 - Polarization $\mathbf{P}$ and magnetization $\mathbf{M}$ are electric and magnetic order parameters that couple to external electric and magnetic fields
 - Spontaneous magnetization in magnetic materials has two components $\mathbf{M} = \mathbf{M}_{spin} + \mathbf{M}_{orb}$

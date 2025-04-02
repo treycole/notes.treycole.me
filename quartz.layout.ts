@@ -2,9 +2,11 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 // components shared across all pages
+// Component.LinksHeader()
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [Component.LinksHeader()],
+  nav: [ Component.Darkmode()],
+  header: [],
   afterBody: [],
   footer: Component.Footer({
     links: {
@@ -35,6 +37,7 @@ export const defaultContentPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
+        {Component: Component.Darkmode()},
       ],
     }),
     Component.Explorer({
@@ -42,7 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.Darkmode(),
+    // Component.Darkmode(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

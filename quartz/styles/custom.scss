@@ -1,3 +1,51 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+
+nav.links-header {
+    background-color: var(--light);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--secondary);
+    transition: background-color 0.4s, color 0.4s, border-color 0.4s;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  nav.links-header > div {
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav.links-header a {
+    color:var(--dark);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1;
+    display: inline-block;
+    padding: 10px 0;
+  }
+  
+  nav.links-header a:hover {
+    color: #007bff;
+  }
+
+  nav.links-header ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  nav.links-header ul li {
+    display: inline;
+  }
+  
+  hr.links-hr {
+    background-color: var(--gray);
+    border-top: 1px solid var(--gray);
+    margin-top: 1.9rem;
+  }

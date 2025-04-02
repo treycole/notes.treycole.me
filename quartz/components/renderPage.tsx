@@ -2,6 +2,7 @@ import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
+import LinksHeader from "./LinksHeader";
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { clone } from "../util/clone"
@@ -12,6 +13,7 @@ import { i18n } from "../i18n"
 
 interface RenderComponents {
   head: QuartzComponent
+  nav: QuartzComponent[]
   header: QuartzComponent[]
   beforeBody: QuartzComponent[]
   pageBody: QuartzComponent
@@ -203,6 +205,7 @@ export function renderPage(
 
   const {
     head: Head,
+    nav,
     header,
     beforeBody,
     pageBody: Content,
@@ -211,8 +214,10 @@ export function renderPage(
     right,
     footer: Footer,
   } = components
+
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
+  const Nav = LinksHeader()
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -239,6 +244,13 @@ export function renderPage(
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
+              <div class="links-header">
+                <Nav {...componentData}>
+                  {header.map((NavComponent) => (
+                    <NavComponent {...componentData} />
+                  ))}
+                </Nav>
+              </div>
               <div class="page-header">
                 <Header {...componentData}>
                   {header.map((HeaderComponent) => (

@@ -4,26 +4,18 @@ import style from "./styles/linksheader.scss"
 export default (() => {
   function LinksHeader() {
     return (
-      <div>
-        <div id="links-header">
-          <span>
-            <a href="https://treycole.me">Home</a>
-          </span>
-          <span>
-            <a href="https://treycole.me/publications.html">Publications</a>
-          </span>
-          <span>
-            <a href="https://notes.treycole.me">Notes</a>
-          </span>
-          {/* <span>
-            <a href="https://treycole.me/cv.pdf">CV</a>
-          </span> */}
-        </div>
-      <hr style="background-color: var(--gray); border-top: 1px var(--gray) solid; margin-top: 1.3rem"></hr>
+
+    <div>
+      <nav class="links-header">
+          <ul>
+            <li><a href="https://treycole.me">Home</a></li>
+            <li> <a href="https://treycole.me/publications.html">Publications</a></li>
+            <li><a href="https://notes.treycole.me">Notes</a></li>
+          </ul>
+        </nav>
       </div>
     )
   }
 
-  LinksHeader.css = style
   return LinksHeader
 }) satisfies QuartzComponentConstructor
