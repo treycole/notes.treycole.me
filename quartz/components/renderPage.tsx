@@ -246,7 +246,7 @@ export function renderPage(
             <div class="center">
               <div class="links-header">
                 <Nav {...componentData}>
-                  {header.map((NavComponent) => (
+                  {nav.map((NavComponent) => (
                     <NavComponent {...componentData} />
                   ))}
                 </Nav>
