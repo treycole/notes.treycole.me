@@ -25,7 +25,7 @@ The sequence of exchanges I've just described is a common and recurring one. So,
 
 > [!question]  What is condensed matter physics?
 
-I am not going to attempt to provide an overview of the field of physics as a whole, or for that matter, condensed matter physics. Condensed matter physics is the largest subfield of physics, and is a wide spanning landscape of different research topics. I would instead like to give a little picture of what it means to "do" condensed matter physics, and perhaps a flavor of what it aims to achieve.
+I am not going to attempt to provide an overview of the field of physics as a whole, that is for another day. I'd like to make the more modest attempt at describing the area of physics that I study, "condensed matter physics." Condensed matter physics is the largest subfield of physics, and is a wide spanning landscape of different research topics. What I'd like to do is just give a little picture of what it means to "do" condensed matter physics, and perhaps a flavor of what it aims to achieve.
 
 The Wikipedia definition of condensed matter physics is:
 
