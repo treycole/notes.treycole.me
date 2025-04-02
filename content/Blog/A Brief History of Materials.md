@@ -84,7 +84,7 @@ James Clerk Maxwell summarizes the fundamental equations of electromagnetism int
 ### __Hall Effect (1879)__ 
 Edwin Hall discovers what is now known as the "Hall effect," observing that electrons are deflected to the edges of a material in the presence of a magnetic field perpendicular to their direction of travel. 
 
-> This would be a foundational experiment for the later observations of the quantum Hall effect, an experiment that started the revolution of topological materials.
+> This would be a foundational experiment for the later observations of the quantum Hall effect, an experiment that started the revolution of [[Topological Materials| topological materials]].
 ### __Photoelectric Effect (1887)__ 
 Heinrich Hertz discovers the photoelectric effect, the emission of electrons from a material caused by shining light onto it. 
 

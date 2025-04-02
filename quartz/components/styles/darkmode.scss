@@ -53,3 +53,21 @@
     display: inline;
   }
 }
+
+/* Hide/show the theme-based images */
+.theme-image {
+  img {
+    display: none;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+:root[saved-theme="dark"] .theme-image .dark-img {
+  display: block;
+}
+
+:root[saved-theme="light"] .theme-image .light-img {
+  display: block;
+}

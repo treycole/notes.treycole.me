@@ -5,7 +5,6 @@ tags:
   - Physics
   - Condensed-Matter
 ---
-
 In geometry, a point group is a mathematical [[Groups|group]] of symmetry operations (isometries in a Euclidean space) that have a fixed point in common. The coordinate origin of the Euclidean space is conventionally taken to be a fixed point, and every point group in dimension $d$ is then a subgroup of the orthogonal group $O(d)$.
 
 Each point group can be represented as sets of orthogonal matrices $M$ that transform a point $x$ into point $y$ by $y = Mx$. Each element is either a rotation ($det(M) = 1$) or a reflection / improper rotation ($det(M)=-1$) .
@@ -33,7 +32,7 @@ In this notation, point groups are denoted by a letter symbol with a subscript
 - $D_{nd}$
 	- $D_n$ + mirror planes parallel to $n$-fold axis
 ### References
-- [wikipedia](https://en.wikipedia.org/wiki/Point_group)
-- [wikipedia](https://en.wikipedia.org/wiki/Crystallographic_point_group#:~:text=In%20Schoenflies%20notation%2C%20point%20groups,to%20the%20axis%20of%20rotation.)
+- Point group [wikipedia](https://en.wikipedia.org/wiki/Point_group)
+- Crystallographic point groups [wikipedia](https://en.wikipedia.org/wiki/Crystallographic_point_group#:~:text=In%20Schoenflies%20notation%2C%20point%20groups,to%20the%20axis%20of%20rotation.)
 
 
