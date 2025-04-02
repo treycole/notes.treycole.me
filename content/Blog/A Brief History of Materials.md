@@ -10,7 +10,7 @@ tags:
 >  - I am not trying to provide an academic report.  
 > -  This is simply for my own enjoyment, take from it what you please.
 
-Our relationship to materials and matter goes back to the earliest days of mankind, and is inseparable from the human story. The ages of history are defined by humanity's ability to control and manipulate the matter around them. Throughout history, we have used materials to improve our condition. Our ability to do say may be _the_ defining characteristic that sets us apart from other species. 
+Our relationship to materials and matter goes back to the earliest days of mankind, and is inseparable from the human story. The ages of history are defined by humanity's ability to control and manipulate the matter around them. Throughout the milenia, we have used materials to improve our condition. Our ability to do say may be _the_ defining characteristic that sets us apart from other species. 
 
 It's fascinating that so many advancements have occurred just within the last couple hundred of years. This is just a very small percentage of our timeline. Nearly 30,000 years passed between our first use of materials to the advent of electricity. This dramatic growth in the rate of development makes this a very exciting time to be a condensed matter physicist.
 # Pre-scientific Era 🗿
