@@ -8,7 +8,6 @@ tags:
 ---
 > [!Warning] Disclaimers
 >  - I am not trying to provide an academic report.  
-> - I am writing only on the things I find most relevant and broadly accessible.
 > -  This is simply for my own enjoyment, take from it what you please.
 
 Our relationship to materials and matter goes back to the earliest days of mankind, and is inseparable from the human story. The ages of history are defined by humanity's ability to control and manipulate the matter around them. Throughout history, we have used materials to improve our condition. Our ability to do say may be _the_ defining characteristic that sets us apart from other species. 
