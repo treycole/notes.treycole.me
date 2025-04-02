@@ -13,13 +13,13 @@ Research shows that the most common questions in early social interactions are t
 
 >[!question] What do you do?  
 
-Usually when I tell people I study physics, the typical response is a puzzled look of confusion, or something like "that sounds difficult." The idea of physics as a mysterious, esoteric field, that has seemingly little connection with their lives, is fairly common. Some may read about it on occasion, catch bits and pieces of information in the media, or may have even taken a class at some point, learning Newton's laws of motion and how to apply them. Most, however, have little notions of what physics is. But at some point or another, we have all wondered about the world around us. Be it as a child learning how to operate our bodies in the physical world, or as an adult looking at the stars in the night sky, wondering what lies beyond. This is what physics is about -- understanding the universe around us. 
+Usually when I tell people I study physics, the typical response is a puzzled look of confusion, or something like "that sounds difficult." The idea of physics as a mysterious, esoteric field having seemingly little to do with our daily lives, is fairly common. Some may read about it on occasion, catch bits and pieces of information in the media, or may have even taken a class at some point, learning Newton's laws of motion and how to apply them. Most, however, have little notions of what physics is or what it means to _do_ physics. But at some point or another, we have all wondered about the world around us. Be it as a child learning how to operate our bodies in the physical world, or as an adult looking at the stars in the night sky, wondering what lies beyond. This is what physics is about -- understanding the universe around us. 
 
 A follow up question is usually something like
 
 > [!question] What do you plan to do with that?
 
-My typical response is along the line of, "I'd like to do research." Again, a puzzled look appears. When someone asks this question, what they really mean is "what kind of career do you want to have?" "Research," is not a career in the traditional sense. Often times, they are not really sure what it _means_ to do research. However, I deliberately dodge declaring a specific career path, because as with most PhD students, I simply don't know what career I will have. During your PhD, you are absorbed in your field of interest, and the work is largely academic. If you want to continue this kind of work, you would likely go on to into academia, becoming faculty at a university. The positions are relatively sparse, and so a large percentage of us will wind up in the vast world of _industry_. What this means is widely varying and depends on your field of study and what skills you've acquired. Typically for scientific domains, this will involve some sort of data analysis or R&D position. I personally make efforts to avoid overthinking it. I enjoy doing research, and I'd like to continue as long as I can. 
+My typical response is along the line of, "I'd like to do research." Again, I'm met with a puzzled look or a question like "so where will you work?" What they really mean is, "what kind of career do you want to have?" "Research," is not a career in the traditional sense. Often times, they are not really sure what it _means_ to do research. This line of questioning is ultimately trying to get down to the real question of, "who are _you_?" However, my answers are often unsatisfactory, because as with most PhD students, I simply don't know what career I will have. During your PhD, you are absorbed in your field of interest, and the work is largely academic. If you want to continue this kind of work, you would likely go on to into academia, taking a faculty position at a university. The positions are relatively sparse, and so a large percentage of us will wind up in the vast world of _industry_. What this means is widely varying and depends on your field of study and what skills you've acquired. Typically for scientific domains, this will involve some sort of data analysis or R&D position. I personally make efforts to avoid overthinking it. I enjoy doing research, and I'd like to continue as long as I can. 
 
 The sequence of exchanges I've just described is a common and recurring one. So, what I aim to do in this post is share a bit about what I do. If you've stumbled upon this post as a non-physicist hopefully you will find it interesting, or if you are a physicist, maybe you can still enjoy my musings.
 
@@ -44,7 +44,7 @@ On a practical level, the study of solids has been a successful enterprise that 
 
 However, in my view, the most fascinating reason to study condensed matter physics is that it tells us about the universe. Materials provide an accessible laboratory for us to explore the underlying laws governing the universe as a whole. We, and the matter around us, are not exempt from these laws. The questions about the very nature of reality can be sequestered in the behaviors of rather mundane materials, and within us. The attitude of many physicists, and myself for the most part, is one of indifference towards the practical uses our research has in the "real world." Of course, if it happens to lead to a new revolutionary technology that makes the world a better place, all the better. But the reality is, most of the research we do only has implications within our narrow fields of interest. We will all argue, of course, that our research is in fact not so narrow, and represents an important facet of reality. If we're lucky, it will influence a number of other research projects, which influences others, and so on, which will hopefully accumulate to a better understanding of the world. The main driving force for myself, however, is personal enlightenment and the art of doing science. Science is a beautiful symphony of minds coming together to create something where there wasn't before. This "something," however seemingly tiny it is, in the end reflects a truth about the nature of reality. The very fact that it exists, and that we are able to find it, is one of the deepest mysteries of all.
 
-> [!question] Yes, but what do you __do__?
+> [!question] But what do you __do__?
 
 Okay so after my rant about what condensed matter physics is and why its important, that still doesn't explain what a condensed matter physicist __does__. The answer depends on who you ask. 
 
@@ -54,16 +54,25 @@ If you ask a theorist, like myself, we would say that we first begin by establis
 
 There are of course exceptions to this picture. In more mathematical research, experimental connection is not always made. Whether this has "real world" implications depends on if you believe that science will tend to find its way into society, or if mathematics lives in a real and independent world of its own, but that is a topic for another post.
 
-In practice, on an average day, I spend about 40 percent of my time writing computer code. This means I write instructions for the computer to do something, solve some equations, do something with the results. The end result is nice looking plots to appear in a paper to summarize the findings. Within that 40 percent, I am testing and running the code, debugging the inevitable errors in the code, rewriting the code to be more efficient, and writing documentation for future developers and readers of the code. The remaining 60 percent of my time is spent meeting and discussing the results with my advisor, preparing and giving talks at meetings and conferences, reading papers on the subject, coursework, and, as we all do, procrastinating. 
+> [!question] But what do __you__ do?
 
->[!question] Is writing this a form of procrastinating?
+In an average week, I spend about 80 percent of my time at the computer (I need to get outside more). The majority of this time is spent writing and analyzing computer code. Writing code means I write instructions for the computer to do something, solve some equations, and do something with the results. A good portion of writing code actually means rewriting code I had previously written so that it is more efficient and perhaps usable for others. As I write, I try to include documentation explaining the code for future readers as much as is reasonable. Almost as much time, if not more on some days, is spent finding bugs in the code where it doesn't work, and fixing them so I get the results I expect. The end result is a set of nice looking plots to appear in a paper to summarize the findings. The remainder of my time is roughly evenly split between meeting and discussing the results with my advisor, preparing and giving talks at meetings and conferences, reading research papers or textbooks for my courses, solving homework problems, and, as we all do, procrastinating. 
 
 ```mermaid
 pie title Time spent
-    "Coding" : 40
-    "Meetings" : 15
-    "Talks" : 15
+    "Writing code" : 30
+    "Debugging code": 20
+    "Meetings" : 10
+    "Talks" : 10
     "Coursework": 10
     "Reading": 15
     "Procrastinating": 5
 ```
+
+>[!question] Is writing this a form of procrastinating?
+
+Yes.
+
+>[!question] Did you undersell the percentage of time spent procrastinating?
+
+Maybe.
