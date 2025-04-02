@@ -22,10 +22,12 @@ In the Paleolithic era, we utilized sharp stone, flint, and wood, to protect our
 The Neolithic era brought the development of pottery, as well as early usage of glass production and metalworking.
 ### __Bronze Age (3300 - 1200 BC)__ 
 Copper is a soft metal, and can be bent and hammered into useful shapes. However, it was too soft for large scale usefulness. The development of metallurgy to combine copper and tin allowed the creation of a more sturdy and useful bronze. The earliest form of glass work has been dated within this time period, around 1600 BC.
-###  __Iron Age (1200 - 300 BC)__ 
+### __Iron Age (1200 - 300 BC)__ 
 The development of iron and steel replaced bronze, as iron was more naturally abundant and could be made stronger and less brittle.
 ### __Magnetism (600 BC)__ 
-Iodestones containing magnetized pieces of magnetite were discovered to attract iron. The philosopher Thales of Miletus is thought to have been the first to scientifically discuss magnetism. The word "magnet" comes from Iodestons found in Magnesia, Anatolia. This would later lead to the development of the compass, revolutionizing travel, and allowing humans to step foot out into the world beyond.
+Iodestones containing magnetized pieces of magnetite were discovered to attract iron. The philosopher Thales of Miletus is thought to have been the first to scientifically discuss magnetism. This would later lead to the development of the compass, revolutionizing travel, and allowing humans to step foot out into the world beyond.
+
+> The word "magnet" comes from Iodestones found in Magnesia, Anatolia. 
 ### __Electricity (600 BC)__ 
 Thales of Miletus made the first recorded observations that rubbing an amber rod creates static electricity. Humanity has just observed one of the fundamental forces of nature. Thales of Miletus believed the forces from the electricity were instead magnetic. 
 
@@ -39,32 +41,32 @@ Ptolemy tabulated angles of refraction for light traveling through different med
 Porcelain was invinted in the Tang dynasty, China. 
 ### __Gun Powder (1000)__ 
 Gunpowder is developed in China
-### __Metallurgy (1540)__ 
-Vannoccio Biringuccio publishes first systematic book on metallurgy, the study of metallic elements and alloys.
 
 # Birth of Science 🔭
 
 Around the 1600s, we start to see a systematic study of materials, and theories began to develop to understand how materials behave. This is the dawn of the scientific era, and would result in a rapid growth in our understanding of the universe.
+### __Metallurgy (1540)__ 
+Vannoccio Biringuccio publishes first systematic book on metallurgy, the study of metallic elements and alloys.
 ### __Sphere packing (1611)__ 
 Johannes Kepler first postulates that no arrangement of equally sized spheres has a greater average density than that of cubic close packing and hexagonal close packing arrangements. 
 
-> We now know the atoms of many crystalline materials  form in cubic and hexagonal close packing arrangements.
+> We now know the atoms of many crystalline materials form in cubic and hexagonal close packing arrangements.
 ### __Snell's Law (1621)__ 
 Willebrord Snellius formulates a mathematical relationship for the angle between the direction light is traveling before and after entering a solid (reflection and refraction)
 ### __Hooke's Law (1660)__ 
-Robert Hook derives an equation for the behavior of springs, a seemingly disconnected idea from the behavior of matter. 
+Robert Hook derives an equation describing the behavior of springs (harmonic oscillator). 
 
 > As any physicist will know, almost every system we know of has some connection to the behavior of a spring. There is a quote somewhere that says, "its all springs all the way down." In fact, the interactions between nuclei in a material can be modeled as connected springs.
 ### __Newton's Laws (1687)__ 
 Isaac Newton formulates his now famous laws of motion. This would be the beginning of a revolution in the understanding of how matter moves through space; marking a fundamental shift in how we approach the study of matter.
-
-# The Electric Era ⚡️
-
-After Newton's laws are formalized, the study of science shifts from purely empirical to more mathematical and theoretical. From the 1700s onward, humanity begins to harness the power of electricity. This is highlighted by the increasing understanding of electromagetism, pinpointed by the landmark theories of James Clerk Maxwell.
 ### __Crystallography (1781)__ 
 René Just Haüy discovers that crystals always cleave along crystallographic planes. He deduced that they must be _periodic_ and composed of regular patterns of tiny molecules. 
 
-> This understanding how modern research approaches the study of crystalline materials.
+> This understanding is still how modern research approaches the study of crystalline materials.
+
+# The Electric Era ⚡️
+
+After Newton's laws are formalized, the study of science shifts from empirical to more mathematical and theoretical. From the 1700s onward, humanity begins to harness the power of electricity. This is highlighted by the increasing understanding of electromagetism, pinpointed by the landmark theories of James Clerk Maxwell.
 ### __The Battery (1800)__ 
 The first electric battery is developed by Alessandro Volta
 ### __Ohm's Law (1827)__ 
