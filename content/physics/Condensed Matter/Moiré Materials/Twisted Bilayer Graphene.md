@@ -1,10 +1,9 @@
 ---
-title: Moiré Materials
+title: Twisted Bilayer Graphene
 tags:
   - Physics
   - Condensed-Matter
 ---
-### Twisted Bilayer Graphene
 Two sheets of graphene that are rotated relative to each other. Graphene has two sublattices $A$ and $B$ , and forms a honeycomb lattice. High symmetry points in the BZ are denoted by $\Gamma$ at the center and $K$/$K'$ at the edge of the BZ that are related by TRS.
 
 Low energy effective (Dirac) Hamiltonian. $$ H_{\tau}(\vec{p}) = v_F (\tau p_x \sigma_x + p_y \sigma_y)$$

@@ -19,7 +19,7 @@ $$
 $$
 V_{eff}(r) = V_{ext}(r) + \int\frac{n(r')}{|r-r'|}dr' + V_{xc}
 $$
-- Local density approximation (LDA)  $$n(r) = \sum_{\nu=1}^N |\psi_{\nu}|^2$$ where $\psi_{\nu}$ are eigenstates of Hamiltonian with $V_{eff}$ as potential
+- Local density approximation (LDA)  $$ n(r) = \sum_{\nu=1}^N |\psi_{\nu}|^2$$where $\psi_{\nu}$ are eigenstates of Hamiltonian with $V_{eff}$ as potential
 - Successful for many s- and p-electron materials
 ### Correlated materials
 - Can DMFT capture metal-Mott insulator transition? Yes

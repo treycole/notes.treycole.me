@@ -16,10 +16,13 @@ tags:
   <img src="assets/garden-night.png" class="dark-img" style="width: 850px; height: 450;" />
 </div>
 
-A __Digital Garden__ is not a blog site, it is a collection of evolving ideas, exploratory writing, and is more unrefined than a traditional blog. 
+Welcome to my **Digital Garden** — an ever-evolving collection of ideas and exploratory writing. Unlike a traditional blog, this space thrives on spontaneity and creative exploration. I craft my notes in **Obsidian** using markdown and transform them into this interactive web experience with the use of **Quartz 4**.
 
-I sometimes #Blog about things on my mind, or other miscellaneous topics. I may eventually post updates about my #Travel, although nothing exists there yet. I often keep notes about #Physics, #Math, and #Coding for later reference. The "knowledge network" shows a connectivity map of my notes. Click the upper-right button to expand the graph to show the connections between all of my notes. Feel free to look around!
+Here, you’ll find occasional #Blog posts on musings and miscellaneous topics, alongside a treasure trove of notes on #Physics, #Math, and #Coding meant for future reference. I might also share updates on #Travel someday, though that journey is just beginning.
+
+Explore the “knowledge network” — a dynamic connectivity map that reveals the relationships between all my notes. Simply click the button in the upper right to expand the graph and uncover the rich tapestry of ideas. I've put together a Spotify playlist of some of the more-atmospheric songs I often listen to while I'm doing work. You can listen to that playlist from the Spotify widget!
+
+Enjoy your journey through this garden of thought!
 
 > [!warning] Disclaimer
-> - Many of these notes are incomplete and a work in progress. They are from my personal note collection and may not be refined.
-> - Some of these notes are from textbooks or sources I have not cited. I will try to add citations as I go.
+>  Some of these notes are from textbooks or sources I have not yet cited. I will try to add citations as I go.
