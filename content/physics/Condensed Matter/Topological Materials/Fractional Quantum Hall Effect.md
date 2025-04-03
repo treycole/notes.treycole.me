@@ -5,6 +5,7 @@ tags:
   - Condensed-Matter
   - Topological-Materials
 draft: false
+modified: 2025-04-03T02:37:12-04:00
 ---
 - Laughlin wavefunction
 - Integer quantum Hall effect of composite fermions

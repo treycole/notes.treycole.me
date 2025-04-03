@@ -5,6 +5,7 @@ tags:
   - Condensed-Matter
   - Topological-Materials
 draft: false
+modified: 2025-04-03T02:36:24-04:00
 ---
 
 The first kind of topological state identified by Thouless, Haldane, and others in the late 1980s. A Chern insulator is a class of materials that exhibit a quantum Hall effect in the absence of a magnetic field, making it "anomalous". 
