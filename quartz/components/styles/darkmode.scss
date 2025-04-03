@@ -25,7 +25,7 @@
 }
 
 .darkmode:hover svg {
-  fill: #03f4fb;
+  fill: var(--tertiary);
 }
 
 :root[saved-theme="dark"] {
