@@ -5,6 +5,8 @@ tags:
   - Physics
   - Condensed-Matter
   - Topological-Materials
+created: 2025-03-30T00:26
+modified: 2025-03-30T22:54
 ---
 Wannier functions of a topologically trivial group of bands are smoothly continuous to an atomic limit, are exponentially localized, and transform under a band representation. 
 

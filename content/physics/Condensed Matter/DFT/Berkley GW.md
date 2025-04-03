@@ -1,10 +1,12 @@
 ---
-title: Berkely GW 
+title: Berkely GW
 draft: false
-tags: 
-- Physics
-- DFT
-- Condensed-Matter
+tags:
+  - Physics
+  - DFT
+  - Condensed-Matter
+modified: 2025-04-03T14:51
+created: 2024-06-13T15:07
 ---
 
 The G stands for the Green's function while the W stands for the screened Couloumb interaction. The screening is encoded in the inverse dielectric function $\epsilon^{-1}$.

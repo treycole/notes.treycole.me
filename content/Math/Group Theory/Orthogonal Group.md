@@ -4,6 +4,8 @@ title: Orthogonal Group
 tags:
   - Math
   - Group-Theory
+created: 2024-03-15T19:00
+modified: 2025-03-31T00:14
 ---
 The set of matrices that are orthogonal, or 
 $$

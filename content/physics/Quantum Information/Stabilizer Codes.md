@@ -1,9 +1,11 @@
 ---
-title: Stabilizer Codes 
+title: Stabilizer Codes
 draft: false
-tags: 
-- Physics
-- Quantum Information
+tags:
+  - Physics
+  - Quantum Information
+created: 2024-05-11T15:23
+modified: 2025-03-30T21:38
 ---
 
 The _Pauli group_ $G_n$ for a single qubit it is defined $$G_1 \equiv\{\pm I, \pm i I, \pm X, \pm i X, \pm Y, \pm i Y, \pm Z, \pm i Z \}$$and for $n$ qubits is all $n$-fold tensor products of Pauli matrices with multiplicative factors $\pm 1$ and $\pm i$ to ensure the elements are closed under multiplication. 

@@ -5,6 +5,8 @@ tags:
   - Condensed-Matter
   - Topological-Materials
 draft: false
+created: 2024-12-06T23:45
+modified: 2025-04-03T00:12
 ---
 ## Tenfold Way
 The "tenfold way" is a classification of topological insulators that depends on the dimension of the system and its symmetries. Based on the symmetries and dimension, the tenfold way tells you the possible values the topological invariant can take. Some possible classes are

@@ -3,6 +3,8 @@ title: Twisted Bilayer Graphene
 tags:
   - Physics
   - Condensed-Matter
+created: 2024-08-15T16:33
+modified: 2025-04-02T23:48
 ---
 Two sheets of graphene that are rotated relative to each other. Graphene has two sublattices $A$ and $B$ , and forms a honeycomb lattice. High symmetry points in the BZ are denoted by $\Gamma$ at the center and $K$/$K'$ at the edge of the BZ that are related by TRS.
 

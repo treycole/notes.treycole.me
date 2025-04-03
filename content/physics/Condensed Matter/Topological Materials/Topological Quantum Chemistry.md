@@ -5,6 +5,8 @@ tags:
   - Physics
   - Condensed-Matter
   - Topological-Materials
+created: 2025-03-30T00:26
+modified: 2025-03-30T23:09
 ---
 
 > __Question__: Topological insulators represent only a few hundred of the 200,000 stoichiometric compounds. Why? Is there a problem with the band description of materials? 

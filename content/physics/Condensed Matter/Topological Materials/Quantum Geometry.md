@@ -5,6 +5,8 @@ tags:
   - Condensed-Matter
   - Topological-Materials
 draft: false
+created: 2024-05-07T15:16
+modified: 2025-04-01T22:50
 ---
 
 - _Quantum metric_ $g$ describes distance between wavefunctions $$T = g + i \Omega$$

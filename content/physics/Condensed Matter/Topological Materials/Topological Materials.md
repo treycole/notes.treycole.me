@@ -5,6 +5,8 @@ tags:
   - Condensed-Matter
   - Topological-Materials
 draft: false
+created: 2024-03-13T11:48
+modified: 2025-04-03T00:11
 ---
 
 Until recently, the standard paradigm for understanding phases of matter was through Landau's symmetry breaking theory and order parameters. A classic example being a _ferromagnet_, which, after being cooled through its Curie temperature there is a reduction of rotational symmetry and the appearance of an order parameter, the magnetization. 

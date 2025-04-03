@@ -4,6 +4,8 @@ tags:
   - Math
   - Linear-Algebra
 draft: false
+created: 2025-03-30T23:48
+modified: 2025-04-01T02:11
 ---
 The polar decomposition of a square real or complex matrix $A$ is a factorization of the form $A=UP$, where $U$ is a unitary matrix and $P$ is a positive semi-definite Hermitian matrix, both square and of the same size.
 

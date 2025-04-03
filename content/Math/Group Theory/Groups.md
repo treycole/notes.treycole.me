@@ -4,6 +4,8 @@ draft:
 tags:
   - Math
   - Group-Theory
+created: 2024-03-15T19:00
+modified: 2025-04-01T02:07
 ---
 A group $\mathcal{G}$ is a set of distinct elements $G_1, \cdots, G_g$ s.t. for any two elements $G_i$ and $G_j$ there is a binary operation $*$ called group multiplication that satisfies the following four axioms
 1.  The set $\mathcal{G}$ is closed under multiplication.

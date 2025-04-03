@@ -2,6 +2,8 @@
 tags:
   - Physics
   - Quantum-Mechanics
+created: 2024-05-10T15:56
+modified: 2025-04-02T15:06
 ---
 Suppose we have a separable Hamiltonian
 $$

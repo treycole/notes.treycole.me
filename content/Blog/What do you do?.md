@@ -4,6 +4,8 @@ tags:
   - Blog
   - Physics
   - Condensed-Matter
+created: 2025-03-31T16:07
+modified: 2025-04-02T14:30
 ---
 > [!Warning] Disclaimers
 >  - This is my first blog post  

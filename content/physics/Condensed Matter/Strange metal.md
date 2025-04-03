@@ -2,6 +2,8 @@
 tags:
   - Physics
   - Condensed-Matter
+created: 2024-05-07T15:17
+modified: 2025-04-02T15:04
 ---
 
 - T-Linear resistivity

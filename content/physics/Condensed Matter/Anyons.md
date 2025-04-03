@@ -3,7 +3,9 @@ title: Anyons
 tags:
   - Physics
   - Condensed-Matter
-draft:
+draft: 
+created: 2025-01-07T02:16
+modified: 2025-03-31T12:42
 ---
 Anyons have fractional statistics and charge, and are thought to be a possible ingredient in the creation of topological quantum computers. By braiding their world lines, the non-Abelian exchange statistics can encode quantum information.
 ## Fractional Statistics and Charge

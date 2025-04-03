@@ -4,6 +4,8 @@ draft:
 tags:
   - Coding
   - Blog
+created: 2025-04-01T02:17
+modified: 2025-04-02T14:01
 ---
 My setup for generating this website is a combination of 
 

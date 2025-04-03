@@ -1,10 +1,12 @@
 ---
 title: Density Functional Theory
 draft: false
-tags: 
-- Physics
-- DFT
-- Condensed-Matter
+tags:
+  - Physics
+  - DFT
+  - Condensed-Matter
+modified: 2025-04-03T15:03
+created: 2024-05-07T15:14
 ---
 
 The goal of density functional theory (DFT) is to approximate the ground state energy $$E_g = \text{min}_{\psi} \langle \psi|H|\psi\rangle $$. We do this through an iterative algorithm

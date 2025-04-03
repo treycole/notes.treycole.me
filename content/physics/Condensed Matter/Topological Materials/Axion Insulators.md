@@ -4,7 +4,8 @@ tags:
   - Physics
   - Condensed-Matter
   - Topological-Materials
-modified: 2025-04-03T02:37:18-04:00
+modified: 2025-04-03T02:37
+created: 2025-03-30T22:51
 ---
 #### Ref: "Berry Phases in Electronic Structure Theory," David Vanderbilt
 # Orbital Magnetization

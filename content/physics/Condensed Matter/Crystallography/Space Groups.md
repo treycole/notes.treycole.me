@@ -4,6 +4,8 @@ draft: false
 tags:
   - Physics
   - Condensed-Matter
+created: 2024-12-08T21:49
+modified: 2025-04-02T15:05
 ---
 
 A space group is the symmetry [[Groups|group]] of a repeating pattern in space. The elements of the space group are the rigid transformations that leave the pattern unchanged. The point groups are $\subset$ of the space groups. The set of all point groups and translations form the space groups.

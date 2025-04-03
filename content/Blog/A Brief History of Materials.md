@@ -5,6 +5,8 @@ tags:
   - Blog
   - Physics
   - Condensed-Matter
+created: 2025-04-01T01:02
+modified: 2025-04-02T15:02
 ---
 > [!Warning] Disclaimers
 >  - I am not trying to provide an academic report.  

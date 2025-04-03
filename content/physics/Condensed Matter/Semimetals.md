@@ -3,7 +3,9 @@ title: Semimetals
 tags:
   - Physics
   - Condensed-Matter
-draft:
+draft: 
+created: 2024-03-05T00:51
+modified: 2025-03-31T00:16
 ---
 A semimetal is a material with very small overlap between bottom of conduction band and top of valence band. They have no band gap, but a negligible density of states at the Fermi level.
 

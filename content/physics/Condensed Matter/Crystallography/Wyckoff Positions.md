@@ -1,9 +1,11 @@
 ---
-title: Wyckoff Positions 
+title: Wyckoff Positions
 draft: false
-tags: 
-- Physics
-- Condensed-Matter
+tags:
+  - Physics
+  - Condensed-Matter
+created: 2025-01-07T02:09
+modified: 2025-03-30T22:43
 ---
 
 In crystallography, a Wyckoff position is any point in a set of points whose _site symmetry groups_ are all _conjugate subgroups_ of one another.

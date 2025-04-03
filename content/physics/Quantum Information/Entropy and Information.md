@@ -4,6 +4,8 @@ draft: false
 tags:
   - Physics
   - Quantum Information
+created: 2024-05-11T15:15
+modified: 2025-03-30T21:38
 ---
 
 _Entropy_ measures how much uncertainty there is in the state of a physical system. 

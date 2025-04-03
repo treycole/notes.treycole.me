@@ -4,6 +4,8 @@ draft: false
 tags:
   - Physics
   - Condensed-Matter
+created: 2025-01-07T02:12
+modified: 2025-04-02T15:05
 ---
 In geometry, a point group is a mathematical [[Groups|group]] of symmetry operations (isometries in a Euclidean space) that have a fixed point in common. The coordinate origin of the Euclidean space is conventionally taken to be a fixed point, and every point group in dimension $d$ is then a subgroup of the orthogonal group $O(d)$.
 

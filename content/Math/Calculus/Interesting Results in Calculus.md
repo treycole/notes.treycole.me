@@ -1,9 +1,11 @@
 ---
 title: Random Calculus Results
 draft: false
-tags: 
-- Math
-- Calculus
+tags:
+  - Math
+  - Calculus
+created: 2024-03-02T00:07
+modified: 2025-03-30T21:27
 ---
 
 These are some useful results that are not easily found on the web. 
