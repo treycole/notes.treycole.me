@@ -35,8 +35,8 @@ A symmetry operation has a matrix representation $\Delta(G)$ , where $G$ is the 
 $$\Delta(G) H(k) \Delta(G) = H(Gk) $$
 Notice the the crystal momentum is also transformed. Each $k$ has associated with it a "little group" consisting of the subset of crystal symmetry operations that leave it invariant $Gk_0 = k_0$. The energy bands at $k_0$ can be classified as _representations_ of the little group. This means that the eigenstates of each band at $k_0$ can be given a label corresponding to representations of the little group of that $k_0$.
 
-Going from any point along a high-symmetry line, the symmetry of the line is generically lower than the symmetry of the point, and will be a subgroup of the little group. Knowing the symmetry of a point, you can uniquely figure out the representation along the line by decomposing the representation of the little group at $k_0$ into representations of the little group along the line. This generates _compatibility relations_ that tell you how the points and lines can connect with each other. These compatibility relations are a cornerstone to the theory of [[Topological Quantum Chemistry||topological quantum chemistry]].
-## Topological Crystalline Insulators
+Going from any point along a high-symmetry line, the symmetry of the line is generically lower than the symmetry of the point, and will be a subgroup of the little group. Knowing the symmetry of a point, you can uniquely figure out the representation along the line by decomposing the representation of the little group at $k_0$ into representations of the little group along the line. This generates _compatibility relations_ that tell you how the points and lines can connect with each other. These compatibility relations are a cornerstone to the theory of [[Topological Quantum Chemistry | topological quantum chemistry]].
+## [[Topological Materials#Topological Crystalline Insulators| Topological Crystalline Insulators]]
 
 Topological crystalline insulators are a cousin to topological insulators. It has been noticed that materials made out of chemically similar elements arranged in same crystal structure have similar electronic properties.
 - e.g. Si, Ge, and Diamond all made of group 4 elements and have same crystal structure. All three are insulators with band gap of order of 1 eV
@@ -44,7 +44,7 @@ Topological crystalline insulators are a cousin to topological insulators. It ha
 >__Question__: Are there topologically distinct states with the same crystal structure? Are there topologically non-trivial states protected by crystal symmetry instead of TRS?
 
 The answer is yes. 
-#### Tin Telluride: First TCI
+#### [[Topological Materials#Experimental TCI in SnTe| Tin Telluride: First TCI]]
 In 2012 first realization of topological crystalline insulators found in Tin Telluride (SnTe), a binary compound with rocksalt crystal structure. Conversely, lead telluride is non-topological with same crystal structure. 
 
 Tin telluride is predicted to have topologically protected surface states while lead telluride does not; the topological protection comes from the _mirror symmetry_. Experimental groups observed surface states in tin telluride. These surface states open a band gap upon a structural distortion that breaks the mirror symmetry.

@@ -45,7 +45,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    Component.Spotify(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks()
@@ -71,5 +70,5 @@ export const defaultListPageLayout: PageLayout = {
       title: "Explore",
     }),
   ],
-  right: [Component.Spotify()],
+  right: [],
 }
