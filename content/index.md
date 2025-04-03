@@ -7,14 +7,14 @@ tags:
   - Blog
   - Coding
   - Travel
+modified: 2025-04-03T03:09:43-04:00
 ---
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/adc653c6-8b10-409c-b828-56949fb3a946/deploy-status)](https://app.netlify.com/sites/notestreycole/deploys)
-
 <div class="theme-image">
   <img src="assets/garden-day.png" class="light-img" style="width: 850px; height: 567;"/>
   <img src="assets/garden-night.png" class="dark-img" style="width: 850px; height: 450;" />
 </div>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/adc653c6-8b10-409c-b828-56949fb3a946/deploy-status)](https://app.netlify.com/sites/notestreycole/deploys)
 
 Welcome to my **Digital Garden** — an ever-evolving collection of ideas and exploratory writing. Unlike a traditional blog, this space thrives on spontaneity and creative exploration. I craft my notes in **Obsidian** using markdown and transform them into this interactive web experience with the use of **Quartz 4**.
 
