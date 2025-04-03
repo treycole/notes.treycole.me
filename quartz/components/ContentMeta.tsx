@@ -19,6 +19,12 @@ const defaultOptions: ContentMetaOptions = {
   showComma: true,
 }
 
+const TimeMeta = ({ value }: { value: Date }) => (
+  <time dateTime={value.toISOString()} title={value.toDateString()}>
+    {value.toLocaleDateString()}
+  </time>
+)
+
 export default ((opts?: Partial<ContentMetaOptions>) => {
   // Merge options with defaults
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
@@ -33,13 +39,32 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       //   segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       // }
 
+      if (fileData.dates) {
+        if (fileData.dates.created) {
+          segments.push(
+            <span>
+              🚀 Launched <TimeMeta value={fileData.dates.created} />
+            </span>,
+          )
+        }
+
+        if (fileData.dates.modified) {
+          segments.push(
+            <span>
+              🪄 Refined <TimeMeta value={fileData.dates.modified} />
+            </span>,
+          )
+        }
+      }
+      
+
       // Display reading time if enabled
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
         })
-        segments.push(<span>{displayedTime}</span>)
+        segments.push(<span>⏳ {displayedTime}</span>)
       }
 
       return (
