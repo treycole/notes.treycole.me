@@ -45,10 +45,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   right: [
-    // Component.Darkmode(),
+    Component.Spotify(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.Backlinks()
   ],
 }
 
@@ -71,5 +71,5 @@ export const defaultListPageLayout: PageLayout = {
       title: "Explore",
     }),
   ],
-  right: [],
+  right: [Component.Spotify()],
 }
