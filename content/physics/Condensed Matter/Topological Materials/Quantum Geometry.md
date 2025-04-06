@@ -6,11 +6,17 @@ tags:
   - Topological-Materials
 draft: false
 created: 2024-05-07T15:16
-modified: 2025-04-01T22:50
+modified: 2025-04-06T17:53
 ---
-
-- _Quantum metric_ $g$ describes distance between wavefunctions $$T = g + i \Omega$$
-- Berry curvature is imaginary component. 
+The quantum geometric tensor takes the form, 
+$$
+    F_{\mu \nu}^{(n)} = \langle \check{\partial}_{\mu} u_{n, \mathbf{k}}| \check{\partial}_{\nu} u_{n, \mathbf{k}} \rangle
+$$
+It can be decomposed into a real and imaginary part. The _Quantum metric_ $g$ describes distance between wavefunctions, and is the real part
+$$
+F= g + \frac{i}{2} \Omega
+$$
+The Berry curvature is the imaginary component. 
 ### Quantum metric nonlinear Hall effect
 
 PT-symmetric AFM without rotational $\Omega=0$, $M=0$ $AHE=0$ $g$ is nontrivial

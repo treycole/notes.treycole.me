@@ -4,10 +4,9 @@ draft: false
 tags:
   - Physics
   - Quantum-Mechanics
-modified: 2025-04-03T15:04
+modified: 2025-04-06T16:26
 created: 2025-03-30T00:26
 ---
-
 The general definition of the Berry phase is a phase angle (from 0 to $2\pi$) that a complex vector acquires as it is transported through a path in its complex vector space. The idea was popularized by Sir Michael Berry in 1984.
 
 To demonstrate the Berry phase, we consider some state in Hilbert space (e.g. the ground state) of some system parameterized by a continuously varying parameter (e.g magnetic field, nuclear coordinates etc.). We then vary the parameter in a closed path, such that the system returns to where it started. 
@@ -61,3 +60,18 @@ The phase difference of the states are exactly zero until an abrupt discontinuit
 
 ### Twisted Parallel-Transport Gauge
 We may like to have a choice of phase that is continuous throughout the evolution of the state. 
+
+
+## Spin-1/2 in a magnetic field
+A quantum mechanical system that exhibits holonomic properties is a spin-1/2 particle in a rotating magnetic field, $\vec{B}(t)$. A spin-1/2 particle has a magnetic moment $\vec{\mu} = g\frac{q\hbar}{2m}\vec{S}$, where $g$ is the Landé factor, $q$ and $m$ are the charge and mass of the particle respectively, and $\vec{S} = \frac{1}{2}\vec{\sigma}$, with $\vec{\sigma} = (\sigma_x, \sigma_y, \sigma_z)$ being the Pauli matrices. The magnetic field precesses around the z-axis at a polar angle $\theta$ at a constant angular frequency $\omega$. The direction of the magnetic field at some time, t, is $\mathbf{\hat{R}} = \mathbf{B}/B$ defined in spherical coordinates by the angles $\theta$ and $\phi = \omega t$. In the laboratory frame the Hamiltonian of the system is
+$$
+H(t) = \hbar \omega_B \mathbf{\hat{R}}(\theta, \omega t) \cdot \mathbf{S}
+$$
+where $\omega_B = \frac{gqB}{2m}$ is the Larmor frequency. The time evolution of this system is dictated by the time-dependent [[Schrödinger's Equation|Schrödinger equation]]
+$$
+    i\hbar\frac{\partial}{\partial t}\ket{\psi(t)} = H(t)\ket{\psi(t)}
+$$
+The states that are of interest are cyclic states such that, $\ket{\psi(0)} = \ket{\psi(\tau)}$ up to some phase factor, where $\tau$ is the period of the cyclic state. In this case, $\tau = \frac{2\pi}{\omega}$. To solve this problem, it is convenient to change reference frames such that the Hamiltonian becomes time independent. We can do this by rotating the state vector by an angle $\phi(t) = -\omega t$. The new state vector $\ket{\psi(t)}^{'}$, evolves according to the time independent Hamiltonian
+$$
+    H^{'} = \hbar\Omega\ \mathbf{\hat{R}(\theta^{'}, 0)}\cdot\mathbf{S}
+$$
