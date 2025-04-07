@@ -1,6 +1,6 @@
 ---
 created: 2020-04-17T17:24:00
-modified: 2025-04-06T15:25
+modified: 2025-04-07T00:36
 tags:
   - Physics
   - Condensed-Matter
@@ -13,7 +13,7 @@ tags:
 __References__
 - Kittel, "Introduction to Solid State Physics", Chapter 5
 
-Using the more fundamental heat capactity, with respect to constant volume
+Using the more fundamental heat capacity, with respect to constant volume
 $$C_V = (\frac{\partial U}{\partial T})_V$$
 Contributions of phonons to heat capacity of a crystal is called __lattice heat capacity__.
 
