@@ -5,7 +5,7 @@ tags:
   - Coding
   - Blog
 created: 2025-04-01T02:17
-modified: 2025-04-02T14:01
+modified: 2025-04-08T17:09
 ---
 My setup for generating this website is a combination of 
 
@@ -13,14 +13,15 @@ My setup for generating this website is a combination of
 - Using the `Quartz 4` package for generating [notes.treycole.me](notes.treycole.me)
 - Using Obsidian to edit my markdown files that generate the notes on [notes.treycole.me](notes.treycole.me) 
 - Using Netlify as a DNS host
-- Using GitHub to store the code for my website, with my Obsidian vault as a folder in this repo
+- Using GitHub to store the code for my website, with my Obsidian vault as a folder in the repository.
 
-Netlify will generate and manage a subdomain for your primary domain. This page [notes.treycole.me](notes.treycole.me) is a subdomain of the primary domain [treycole.me](treycole.me). When clicking the "Notes" link in the navigation bar, it directs you to the subdomain.
+Netlify will generate and manage a subdomain for your primary domain. This page [notes.treycole.me](notes.treycole.me) is a subdomain of the primary domain [treycole.me](treycole.me). When clicking the "Notes" link in the navigation bar, it directs you to this subdomain.
 ### Using Quartz
 
 `Quartz` is a very nice package that makes it convenient to generate HTML webpages from your Obsidian notes. My main goal in using Quartz was to incorporate the 'graph view' in my webpage to visualize the relationship between the notes in my vault. 
 
-However, editing the resulting webpage to look how you want can be a bit of a pain. `Quartz` has bash scripts that take your markdown files and generates the HTML that is served. The code is highly modular, defining custom CSS themes and JavaScript objects in numerous files scattered throughout the directory. This is really my first major experience using `css`, `html`, and `javascript`, so it was a learning experience. They give some ideas for how to change basic things like the titles and color scheme, but for anything more extensive, it is not so clear.
+However, editing the resulting webpage to look how you want can be a bit of a pain. `Quartz` is highly modular. It has bash scripts that take your markdown files and generates the HTML that is served as the webpage. The rest of the package has separate files for defining custom `css` themes and different files for each `JavaScript` object that renders the different parts of the webpage. These are all scattered in directories and subdirectories throughout the package. 
+The `Quartz` documentation does help quite a bit in this process, but still is somewhat limited.
 
 For example, to implement the navigation bar at the top of the webpage, I had to create a custom 'component' with `LinksHeader.tsx`. This object simply mimics the other components already defined, and at its core is just the HTML code to make a navigation bar with the "links-header" class and have the appropriate links attached. Now how to get it rendered in the webpage? To do this I added
 
@@ -36,7 +37,7 @@ For example, to implement the navigation bar at the top of the webpage, I had to
 ```
 
 
-to the `doc` object in `quartz/components/renderPage.tsx`. It was not at first obvious where to put my `LinksHeader` object to render in the page. Through trial and error I eventually figured it out by looking at how the `Header` object was implemented. But wait, there's yet another file to edit. In `quarts/cfg.ts` you must add an additional `QuartzComponent` to what appears to be the page layout. For this I added a `nav` container where the `LinksHeader` navigation bar would be:
+to the `doc` object in `quartz/components/renderPage.tsx`. It was not at first obvious where to put my `LinksHeader` object to render in the page. Through trial and error I eventually figured it out by looking at how the `Header` object was implemented. In `quarts/cfg.ts` you must add an additional `QuartzComponent` to what appears to be the page layout. For this I added a `nav` container where the `LinksHeader` navigation bar would be:
 
 ```ts
 export interface FullPageLayout {
@@ -58,7 +59,7 @@ export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left" | "right">
 export type SharedLayout = Pick<FullPageLayout, "head" | "nav" | "header" | "footer" | "afterBody">
 ```
 
-What if I want to use the color scheme of the webpage while still picking which colors to use? For this we need to make add the `css` to the `quarts/styles/custom.scss`. To make the colors match my homepage, I added
+What if I want to change the color scheme of the webpage? For this we need to make add the `css` to the `quarts/styles/custom.scss`. To make the colors match my homepage, I added
 
 ```scss
 nav.links-header {

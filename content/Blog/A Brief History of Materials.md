@@ -6,7 +6,7 @@ tags:
   - Physics
   - Condensed-Matter
 created: 2025-04-01T01:02
-modified: 2025-04-02T15:02
+modified: 2025-04-08T17:04
 ---
 > [!Warning] Disclaimers
 >  - I am not trying to provide an academic report.  
@@ -86,7 +86,7 @@ James Clerk Maxwell summarizes the fundamental equations of electromagnetism int
 ### __Hall Effect (1879)__ 
 Edwin Hall discovers what is now known as the "Hall effect," observing that electrons are deflected to the edges of a material in the presence of a magnetic field perpendicular to their direction of travel. 
 
-> This would be a foundational experiment for the later observations of the quantum Hall effect, an experiment that started the revolution of [[Topological Materials| topological materials]].
+> This would be a foundational experiment for the later observations of the quantum Hall effect in the 1980s. The quantum Hall effect would start the revolution of [[Topological Materials| topological materials]].
 ### __Photoelectric Effect (1887)__ 
 Heinrich Hertz discovers the photoelectric effect, the emission of electrons from a material caused by shining light onto it. 
 
