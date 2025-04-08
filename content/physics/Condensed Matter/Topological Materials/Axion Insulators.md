@@ -4,10 +4,11 @@ tags:
   - Physics
   - Condensed-Matter
   - Topological-Materials
-modified: 2025-04-03T02:37
+modified: 2025-04-07T03:04
 created: 2025-03-30T22:51
 ---
-#### Ref: "Berry Phases in Electronic Structure Theory," David Vanderbilt
+__References__
+- _Berry Phases in Electronic Structure Theory_, David Vanderbilt
 # Orbital Magnetization
 The Polarization $\mathbf{P}$ and magnetization $\mathbf{M}$ are electric and magnetic order parameters that couple to external electric and magnetic fields
    
@@ -43,16 +44,29 @@ An approach based on Wannier representation put forth by Thonhauser (2005) and C
 
 >[!hint] For a review see Thonhauser (2011) and Hanke et al. (2016)
 
-## Orbital Magnetoelectric Response
-
+# Magnetoelectric Polarizability
 Orbital magnetoelectric coupling measures a change in $\mathbf{M}_{orb}$ induced by an electric field.
 This coupling includes a "Chern-Simons" contribution which connects to topological insulators and contributes to the isotropic or "axion" magnetoelectric response.
+$$\alpha_{ij} = \frac{\partial M_j}{\partial E_i}|_{\mathbf{B}=0} =  \frac{\partial P_i}{\partial B_j}|_{\mathbf{E}=0}$$
+Equality follows from commuting derivatives of free energy. Has 9 independent components and can be decomposed as 
+$$
+\alpha_{ij} = \tilde{\alpha}_{ij} + \frac{\theta e^2}{2\pi h}\delta_{ij}
+$$where first term is traceless and second term is the _pseudoscalar_ part of the coupling, and $\theta$ is called the _axion angle_ ($\theta$ changes sign under inversion)
 
+# Axion Angle
 
+Electrodynamics is invariant under $\theta \rightarrow \theta + 2\pi$. Can alternatively be described in terms of surface Hall conductivity $\sigma_H = \theta e^2/2\pi h$ which is determined by bulk properties only modulo the quantum $e^2/h$ corresponding to adsorbing a surface layer of non-zero Chern number $C$.
+
+When time-reversal ($\mathcal{T}$) is present, TKNN invariants vanish, but other invariants arise such as $\mathbb{Z}_2$ invariant in 2D, distinguishing ordinary from quantum spin Hall states. In 3D, a similar invariant can be computed from 2D invariant on certain planes or from Fu-Kane parity criterion, classifying strong and weak topological insulators.
+
+- T maps $\theta \rightarrow -\theta$ and the ambiguity mod $2\pi$ allows $\theta = 0,\pi$, with the latter corresponding to the strong [[Topological Insulators|topological insulators]]
+- If T extends to surfaces, these become metallic by virtue of topologically protected edge modes. If T-breaking perturbation, then $\sigma_H = e^2/2h$ mod $e^2/h$ at surface of STI. 
+
+Here focus of magnetoelectric coupling resulting from _orbital_ (frozen lattice) magnetization and polarization, referred to as the _orbital magnetoelectric polarizability_ (OMP)
 
 # Dynamical Axions
-### Early Frameworks (2012-2017)
 
+When _axion field_ $\theta(\mathbf{r}, t)$ is _constant_, it plays _no role_ in electrodynamics. However can have profound consequences at _surfaces and interfaces_, where _gradients_ in $\theta(\mathbf{r})$ appear.
 #### Kavli IPMU and ISSP
 - [Story](https://www.ipmu.jp/en/story/7788) titled "Instability in magnetic materials with dynamical axion field"
 - Joint research effort in Tokyo between elementary particle physics and condensed matter physics
