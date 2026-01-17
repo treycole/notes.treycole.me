@@ -6,7 +6,7 @@ tags:
   - Physics
   - Condensed-Matter
 created: 2025-04-01T01:02
-modified: 2025-04-08T17:27
+modified: 2025-05-06T17:39
 ---
 > [!Warning] Disclaimers
 >  - I am not trying to provide an academic report.  
@@ -126,7 +126,7 @@ Graphene is first theorized as a single sheet of atoms in Graphite. This materia
 
 # The Silicon Era 💻
 
-The silicon era would be the furnace for many of the technological advancements that we rely on so heavily today. At this point in time, quantum mechanics begins to see real world applications, and would be used to predict material properties. One of the consequences of this would become the band theory description of materials, which would lead to the development of the semiconductor, and is still a cornerstone to modern condensed matter research. 
+%% The silicon era would be the furnace for many of the technological advancements that we rely on so heavily today. At this point in time, quantum mechanics begins to see real world applications, and would be used to predict material properties. One of the consequences of this would become the band theory description of materials, which would lead to the development of the semiconductor, and is still a cornerstone to modern condensed matter research.  %%
 
 
 

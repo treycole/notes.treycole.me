@@ -4,9 +4,8 @@ tags:
   - Physics
   - Condensed-Matter
   - Topological-Materials
-draft: false
 created: 2024-05-07T15:16
-modified: 2025-04-06T17:53
+modified: 2025-04-15T02:39
 ---
 The quantum geometric tensor takes the form, 
 $$

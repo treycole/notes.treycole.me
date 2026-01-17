@@ -1,11 +1,10 @@
 ---
 title: Wannier Functions
-draft: false
 tags:
   - Physics
   - Condensed-Matter
 created: 2025-03-30T00:26
-modified: 2025-03-30T22:38
+modified: 2025-04-15T02:39
 ---
 
 Wannier functions are the localized representation of the Bloch energy eigenstates of a periodic crystal. They effectively are related to a given Bloch energy eigenstate through a Fourier transform

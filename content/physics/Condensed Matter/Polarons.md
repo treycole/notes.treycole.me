@@ -4,7 +4,7 @@ tags:
   - Physics
   - Condensed-Matter
 created: 2024-06-13T11:30
-modified: 2025-04-07T02:53
+modified: 2025-04-08T17:40
 ---
 __References__
 - Cohen and Louie, " Fundamentals of Condensed Matter Physics"
@@ -36,11 +36,15 @@ $$
 $$
 In the weak coupling regime $\alpha < 1$. The self energy at $T=0$ from second order perturbation theory is 
 $$
-\Sigma_{a} = \Delta E_a = \sum_{b} \frac{|\langle a|H_{e-ph} | b\rangle}{E_{a}-E_{b}}
+\Sigma_{a} = \Delta E_a = \sum_{b} \frac{|\langle a|H_{e-ph} | b\rangle|^2}{E_{a}-E_{b}}
 $$
 where $b$ are all of the possible intermediate states. For the initial state $a$, we assume the electron is in the free electron state $|k\rangle$ with no phonons so the total wavefunction is $|k,0\rangle$ and the total energy is $E_a=\hbar^2 k^2 / 2m$. At an intermediate state $b$ the electron is in state $|\mathbf{k}-\mathbf{q}\rangle$ and one phonon is present so the total wavefunction is $a^{\dagger}_{\mathbf{q}}|\mathbf{k}-\mathbf{q}, 0\rangle$ and the energy is 
 $$
 E_b = \frac{\hbar^2 (\mathbf{k}-\mathbf{q})^2}{2m} + \hbar \omega_{\mathbf{q}} = \frac{\hbar^2 k^2}{2m} + \frac{\hbar^2 q^2}{2m} - \frac{\hbar^2 \mathbf{q}\cdot \mathbf{k}}{m} + \hbar \omega_{LO}
+$$
+
+$$
+
 $$
 and 
 $$

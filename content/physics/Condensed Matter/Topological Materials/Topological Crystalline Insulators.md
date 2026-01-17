@@ -6,7 +6,7 @@ tags:
   - Topological-Materials
 draft: false
 created: 2024-12-06T23:45
-modified: 2025-04-06T17:41
+modified: 2025-04-09T14:09
 ---
 __References__
 - Alexander Altland and Martin R. Zirnbauer. Non-standard symmetry classes in mesoscopic normal-superconducting hybrid structures. Phys. Rev. B, 55:1142–1161, Jan 1997.
@@ -16,9 +16,22 @@ __References__
 
 Topological insulators, such as the Chern insulator and $\mathbb{Z}_2$ insulator, are characterized by their gapless surface states and $K$-theoretic topological invariants. In these familiar cases, crystalline symmetries do not play a role. However, in some instances, crystalline symmetries may be crucial in determining and protecting the topological phase. Insulators whose topological phase depends on crystal symmetries are called  _topological crystalline insulators_ (TCIs). 
 
+## Tenfold Way
+The tenfold way, or the Altland-Zirnbauer classification, distinguishes systems according to their symmetry class and dimension, restricting the possible values the $K$-theoretic topological invariant can take. These symmetry classes correspond to systems with or without a combination of time-reversal, particle-hole, and chiral (sublattice) symmetries. Some possible classes are
+
+- __Class A in 2d__: $\mathbb{Z}$ invariant
+	- No symmetry
+	- Integer quantum Hall / Chern insulator
+- __Class AII in 2d and 3d__: $\mathbb{Z}_2$ invariant
+	- Time reversal symmetry present (for spin 1/2 fermions)
+	- Describes topological insulators
+		- Weak indices not captured. 
+
+However this table only depends on the _internal symmetries_ of the system. For example, the weak indices in a topological insulator depends on translational symmetries, which is a crystalline symmetry, not an internal symmetry. Hence, this classification scheme is insufficient to describe this set of topological indices. 
 ## Crystal Symmetries
 
 [[Point Groups]] are a set of lattice operations that leaves at least one point invariant. Some possible operations are 
+
 - _Rotation_: Leaves entire axis invariant
 - _Mirror_: Leaves entire plane invariant
 - _Inversion_: Leaves the origin invariant
@@ -35,19 +48,6 @@ $$\Delta(G) H(k) \Delta(G) = H(Gk) $$
 Notice the the crystal momentum is also transformed. Each $k$ has associated with it a "little group" consisting of the subset of crystal symmetry operations that leave it invariant $Gk_0 = k_0$. The energy bands at $k_0$ can be classified as _representations_ of the little group. This means that the eigenstates of each band at $k_0$ can be given a label corresponding to representations of the little group of that $k_0$.
 
 Going from any point along a high-symmetry line, the symmetry of the line is generically lower than the symmetry of the point, and will be a subgroup of the little group. Knowing the symmetry of a point, you can uniquely figure out the representation along the line by decomposing the representation of the little group at $k_0$ into representations of the little group along the line. This generates _compatibility relations_ that tell you how the points and lines can connect with each other. These compatibility relations are a cornerstone to the theory of [[Topological Quantum Chemistry | topological quantum chemistry]].
-
-## Tenfold Way
-The tenfold way, or the Altland-Zirnbauer classification, distinguishes systems according to their symmetry class and dimension, restricting the possible values the topological invariant can take. These symmetry classes correspond to systems with or without a combination of time-reversal, particle-hole, and chiral (sublattice) symmetries. Some possible classes are
-
-- __Class A in 2d__: $\mathbb{Z}$ invariant
-	- No symmetry
-	- Integer quantum Hall / Chern insulator
-- __Class AII in 2d and 3d__: $\mathbb{Z}_2$ invariant
-	- Time reversal symmetry present (for spin 1/2 fermions)
-	- Describes topological insulators
-		- Weak indices not captured. 
-
-However this table only depends on the _internal symmetries_ of the system. For example, the weak indices in a topological insulator depends on translational symmetries, which is a crystalline symmetry, not an internal symmetry. Hence, this classification scheme is insufficient to describe this set of topological indices. 
 
 ## Topological Crystalline Insulators
 
@@ -74,11 +74,11 @@ The concept of TCIs was introduced by [[Topological Materials#Topological Crysta
 As shown in the figure above, these states have a quadratic touching at the $C_4$ invariant high-symmetry momentum (HSM) $\bar{M} = (\pi, \pi)$, differing from the linear Dirac dispersion at time-reversal invariant (TRIM) momenta in $\mathbb{Z}_2$ topological insulators. This band crossing is topologically protected in the presence of $C_4$ and $\mathcal{T}$; however, when adding $C_4$ or $\mathcal{T}$ symmetry-breaking terms to the Hamiltonian, the crossing becomes gapped, and the system is trivial.
 
 Fu derives a bulk-defined topological $\mathbb{Z}_2$ invariant in the paper, analogous to that of a spin-Hall $\mathbb{Z}_2$ insulator. It involves the Pffafian of an antisymmetric unitary overlap matrix $W_{m,n}(\mathbf{k}_i)=\langle u_{m\mathbf{k}_i}| C_4 \mathcal{T}|u_{n\mathbf{k}_i}\rangle$ defined at the $C_4$ and $\mathcal{T}$ invariant HSM; $\Gamma = (0,0,0)$, $M = (\pi, \pi, 0)$, $A=(\pi, \pi, \pi)$, and $Z=(0,0, \pi)$. This invariant depends closely on the symmetry of the crystal. When $\mathcal{T}$ and $C_4$ are symmetries, this leads to protected degeneracies at the four invariant HSM. At these points, the energy bands are eigenstates of the $C_4$ operator with eigenvalues $1, -1, +i, -i$. Without spin-orbit coupling and with $\mathcal{T}$ symmetry, the $\pm i$ eigenstates are doubly degenerate, forming a two-dimensional irreducible representation (irrep) of the symmetry group. The $\mathbb{Z}_2$ invariant is only well-defined for these doublets, which can be understood mathematically as the constraint of needing an anti-symmetric overlap matrix $W$ for the Pfaffian to be well-defined, only being possible even dimensional matrices, or physically from the fact that symmetry can only protect degenerate surface band crossings for doublets, not singlets. This illustrates the interplay of symmetry and topology in TCIs. 
-### [[Topological Materials#Experimental TCI in SnTe| Tin Telluride: First TCI]]
+### [[Topological Materials#Experimental TCI in SnTe| Tin Telluride: First Observed TCI]]
+
 In 2012 first realization of topological crystalline insulators found in Tin Telluride (SnTe), a binary compound with rocksalt crystal structure. Conversely, lead telluride is non-topological with same crystal structure. 
 
 Tin telluride is predicted to have topologically protected surface states while lead telluride does not; the topological protection comes from the _mirror symmetry_. Experimental groups observed surface states in tin telluride. These surface states open a band gap upon a structural distortion that breaks the mirror symmetry.
-
 
 >__Summary__: TCIs have topological surface states that are protected by crystal symmetries.
 

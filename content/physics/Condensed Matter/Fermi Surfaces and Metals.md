@@ -1,12 +1,10 @@
 ---
 created: 2020-04-17T15:53:00
-modified: 2025-04-06T15:56
+modified: 2025-04-15T02:38
 tags:
   - Physics
   - Condensed-Matter
 ---
-
-
 ### Introduction
 The _Fermi-surface_ is the surface of constant energy $\mathbf{\epsilon_F}$ in  $k$- space. The Fermi surface separates the unfilled orbitals from the filled orbitals, at a temperature of absolute zero. The electrical properties of the metal are determined by the volume and shape of the Fermi surface, because the current is due to changes in the occupancy of states near the Fermi surface. 
 

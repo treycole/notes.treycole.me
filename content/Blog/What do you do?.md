@@ -1,11 +1,11 @@
 ---
-draft: false
 tags:
   - Blog
   - Physics
   - Condensed-Matter
 created: 2025-03-31T16:07
-modified: 2025-04-08T17:02
+modified: 2026-01-17T00:18
+draft: "true"
 ---
 > [!Warning] Disclaimers
 >  - This is my first blog post  
